@@ -1,0 +1,4 @@
+model,metric,variation,train_size,test_size,batch_size,interval,n_edge,metric_value
+qwen2.5-1.5b-instruct,diff,C,50,20,1,99.0|101.0,182,100.0
+qwen2.5-1.5b-instruct,diff,A,50,20,1,99.0|101.0,240,100.0
+qwen2.5-1.5b-instruct,diff,computation,50,20,1,99.0|101.0,180,99.1769547325103

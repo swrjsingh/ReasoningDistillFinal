@@ -1,0 +1,159 @@
+{
+    "seq_labels": [
+        "[<|im_start|>]_occ_1",
+        "[system]_occ_1",
+        "[newline]_occ_1",
+        "token_pos_3",
+        "token_pos_4",
+        "token_pos_5",
+        "token_pos_6",
+        "[,]_occ_1",
+        "token_pos_8",
+        "token_pos_9",
+        "token_pos_10",
+        "token_pos_11",
+        "[.]_occ_1",
+        "token_pos_13",
+        "token_pos_14",
+        "token_pos_15",
+        "token_pos_16",
+        "token_pos_17",
+        "[.]_occ_2",
+        "[<|im_end|>]_occ_1",
+        "[newline]_occ_2",
+        "[<|im_start|>]_occ_2",
+        "[user]_occ_1",
+        "[newline]_occ_3",
+        "[does]_occ_1",
+        "token_pos_25",
+        "token_pos_26",
+        "token_pos_27",
+        "token_pos_28",
+        "token_pos_29",
+        "token_pos_30",
+        "token_pos_31",
+        "token_pos_32",
+        "token_pos_33",
+        "token_pos_34",
+        "token_pos_35",
+        "token_pos_36",
+        "[valid]_occ_1",
+        "token_pos_38",
+        "[invalid]_occ_1",
+        "[.]_occ_3",
+        "[problem]_occ_1",
+        "[:]_occ_1",
+        "[name]_occ_1",
+        "token_pos_44",
+        "[space]_occ_1",
+        "[op1]_occ_1",
+        "[object]_occ_1",
+        "token_pos_48",
+        "token_pos_49",
+        "[.]_occ_4",
+        "token_pos_51",
+        "[pronoun]_occ_1",
+        "[verb]_occ_1",
+        "[space]_occ_2",
+        "[op2]_occ_1",
+        "token_pos_56",
+        "[object]_occ_2",
+        "[,]_occ_2",
+        "token_pos_59",
+        "token_pos_60",
+        "token_pos_61",
+        "token_pos_62",
+        "token_pos_63",
+        "token_pos_64",
+        "token_pos_65",
+        "token_pos_66",
+        "[:]_occ_2",
+        "token_pos_68",
+        "token_pos_69",
+        "token_pos_70",
+        "[:]_occ_3",
+        "[space]_occ_3",
+        "[op1-in-eq]_occ_1",
+        "[plus]_occ_1",
+        "[space]_occ_4",
+        "[op2-in-eq]_occ_1",
+        "[equals]_occ_1",
+        "[space_after_eq]_occ_1",
+        "[C-first]_occ_1",
+        "[C-second]_occ_1",
+        "[.]_occ_5",
+        "[<|im_end|>]_occ_2",
+        "[newline]_occ_4",
+        "[<|im_start|>]_occ_3",
+        "[assistant]_occ_1",
+        "[newline]_occ_5",
+        "answer",
+        "[:]_occ_4",
+        "the",
+        "above",
+        "reasoning",
+        "is"
+    ],
+    "prompts": [
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 3 jackets at first. If she gathered 8 more jackets, what is the total count? Reasoning: Adding them gives: 3 + 8 = 16.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 3 jackets at first. If she gathered 8 more jackets, what is the total count? Reasoning: Adding them gives: 3 + 8 = 11.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 2 pillows at first. If she received 8 more pillows, what is the total count? Reasoning: Adding them gives: 2 + 8 = 16.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 2 pillows at first. If she received 8 more pillows, what is the total count? Reasoning: Adding them gives: 2 + 8 = 10.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian possesses 4 candles at first. If he gathered 6 more candles, what is the total count? Reasoning: Adding them gives: 4 + 6 = 15.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian possesses 4 candles at first. If he gathered 6 more candles, what is the total count? Reasoning: Adding them gives: 4 + 6 = 10.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly possesses 3 candles at first. If she received 9 more candles, what is the total count? Reasoning: Adding them gives: 3 + 9 = 19.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly possesses 3 candles at first. If she received 9 more candles, what is the total count? Reasoning: Adding them gives: 3 + 9 = 12.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 5 jackets at first. If she bought 7 more jackets, what is the total count? Reasoning: Adding them gives: 5 + 7 = 19.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 5 jackets at first. If she bought 7 more jackets, what is the total count? Reasoning: Adding them gives: 5 + 7 = 12.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice possesses 4 jackets at first. If she gained 7 more jackets, what is the total count? Reasoning: Adding them gives: 4 + 7 = 16.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice possesses 4 jackets at first. If she gained 7 more jackets, what is the total count? Reasoning: Adding them gives: 4 + 7 = 11.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        }
+    ]
+}

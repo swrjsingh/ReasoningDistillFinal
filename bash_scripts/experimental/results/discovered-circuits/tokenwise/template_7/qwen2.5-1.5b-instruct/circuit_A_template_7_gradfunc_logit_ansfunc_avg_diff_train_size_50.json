@@ -1,0 +1,4176 @@
+{
+    "tok_pos_edges": {
+        "[A-second]_occ_1": [
+            {
+                "src": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_out",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 143
+                },
+                "dest": {
+                    "name": "MLP 15",
+                    "module_name": "blocks.15.hook_mlp_in",
+                    "layer": 32,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.15.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.1",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 158
+                },
+                "dest": {
+                    "name": "A13.0.Q",
+                    "module_name": "blocks.13.hook_q_input",
+                    "layer": 27,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.11",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 11,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 168
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_out",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 143
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 4",
+                    "module_name": "blocks.4.hook_mlp_out",
+                    "layer": 10,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.4.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 65
+                },
+                "dest": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_in",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A8.7",
+                    "module_name": "blocks.8.attn.hook_result",
+                    "layer": 17,
+                    "head_idx": 7,
+                    "head_dim": 2,
+                    "weight": "blocks.8.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 112
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A11.0",
+                    "module_name": "blocks.11.attn.hook_result",
+                    "layer": 23,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.11.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 144
+                },
+                "dest": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_in",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.5",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 5,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 136
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A9.7",
+                    "module_name": "blocks.9.attn.hook_result",
+                    "layer": 19,
+                    "head_idx": 7,
+                    "head_dim": 2,
+                    "weight": "blocks.9.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 125
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 2",
+                    "module_name": "blocks.2.hook_mlp_out",
+                    "layer": 6,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.2.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 39
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 6",
+                    "module_name": "blocks.6.hook_mlp_out",
+                    "layer": 14,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.6.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 91
+                },
+                "dest": {
+                    "name": "A14.2.Q",
+                    "module_name": "blocks.14.hook_q_input",
+                    "layer": 29,
+                    "head_idx": 2,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_out",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 182
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_out",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 143
+                },
+                "dest": {
+                    "name": "A12.11.Q",
+                    "module_name": "blocks.12.hook_q_input",
+                    "layer": 25,
+                    "head_idx": 11,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.1",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 158
+                },
+                "dest": {
+                    "name": "A13.1.Q",
+                    "module_name": "blocks.13.hook_q_input",
+                    "layer": 27,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "Resid Start",
+                    "module_name": "blocks.0.hook_resid_pre",
+                    "layer": 0,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "embed.W_E",
+                    "weight_head_dim": null,
+                    "src_idx": 0
+                },
+                "dest": {
+                    "name": "A0.0.V",
+                    "module_name": "blocks.0.hook_v_input",
+                    "layer": 1,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.0.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 4",
+                    "module_name": "blocks.4.hook_mlp_out",
+                    "layer": 10,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.4.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 65
+                },
+                "dest": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_in",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_out",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 156
+                },
+                "dest": {
+                    "name": "A14.2.Q",
+                    "module_name": "blocks.14.hook_q_input",
+                    "layer": 29,
+                    "head_idx": 2,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A9.9",
+                    "module_name": "blocks.9.attn.hook_result",
+                    "layer": 19,
+                    "head_idx": 9,
+                    "head_dim": 2,
+                    "weight": "blocks.9.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 127
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A8.7",
+                    "module_name": "blocks.8.attn.hook_result",
+                    "layer": 17,
+                    "head_idx": 7,
+                    "head_dim": 2,
+                    "weight": "blocks.8.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 112
+                },
+                "dest": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_in",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 6",
+                    "module_name": "blocks.6.hook_mlp_out",
+                    "layer": 14,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.6.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 91
+                },
+                "dest": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_in",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 5",
+                    "module_name": "blocks.5.hook_mlp_out",
+                    "layer": 12,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.5.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 78
+                },
+                "dest": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_in",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "A11.1.K",
+                    "module_name": "blocks.11.hook_k_input",
+                    "layer": 23,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.11.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A9.9",
+                    "module_name": "blocks.9.attn.hook_result",
+                    "layer": 19,
+                    "head_idx": 9,
+                    "head_dim": 2,
+                    "weight": "blocks.9.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 127
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_out",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 169
+                },
+                "dest": {
+                    "name": "A13.0.Q",
+                    "module_name": "blocks.13.hook_q_input",
+                    "layer": 27,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_out",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 117
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 15",
+                    "module_name": "blocks.15.hook_mlp_out",
+                    "layer": 32,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.15.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 208
+                },
+                "dest": {
+                    "name": "A16.1.K",
+                    "module_name": "blocks.16.hook_k_input",
+                    "layer": 33,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.16.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 6",
+                    "module_name": "blocks.6.hook_mlp_out",
+                    "layer": 14,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.6.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 91
+                },
+                "dest": {
+                    "name": "A12.0.Q",
+                    "module_name": "blocks.12.hook_q_input",
+                    "layer": 25,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 7",
+                    "module_name": "blocks.7.hook_mlp_out",
+                    "layer": 16,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.7.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 104
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 3",
+                    "module_name": "blocks.3.hook_mlp_out",
+                    "layer": 8,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.3.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 52
+                },
+                "dest": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_in",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 5",
+                    "module_name": "blocks.5.hook_mlp_out",
+                    "layer": 12,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.5.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 78
+                },
+                "dest": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_in",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A8.3",
+                    "module_name": "blocks.8.attn.hook_result",
+                    "layer": 17,
+                    "head_idx": 3,
+                    "head_dim": 2,
+                    "weight": "blocks.8.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 108
+                },
+                "dest": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_in",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.1",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 158
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A8.3",
+                    "module_name": "blocks.8.attn.hook_result",
+                    "layer": 17,
+                    "head_idx": 3,
+                    "head_dim": 2,
+                    "weight": "blocks.8.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 108
+                },
+                "dest": {
+                    "name": "A14.2.Q",
+                    "module_name": "blocks.14.hook_q_input",
+                    "layer": 29,
+                    "head_idx": 2,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "A10.10.Q",
+                    "module_name": "blocks.10.hook_q_input",
+                    "layer": 21,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_out",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 169
+                },
+                "dest": {
+                    "name": "A13.1.Q",
+                    "module_name": "blocks.13.hook_q_input",
+                    "layer": 27,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.3",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 3,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 134
+                },
+                "dest": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_in",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A14.3",
+                    "module_name": "blocks.14.attn.hook_result",
+                    "layer": 29,
+                    "head_idx": 3,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 186
+                },
+                "dest": {
+                    "name": "A15.1.V",
+                    "module_name": "blocks.15.hook_v_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_out",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 195
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A6.6",
+                    "module_name": "blocks.6.attn.hook_result",
+                    "layer": 13,
+                    "head_idx": 6,
+                    "head_dim": 2,
+                    "weight": "blocks.6.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 85
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.1",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 158
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "A12.0.Q",
+                    "module_name": "blocks.12.hook_q_input",
+                    "layer": 25,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 5",
+                    "module_name": "blocks.5.hook_mlp_out",
+                    "layer": 12,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.5.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 78
+                },
+                "dest": {
+                    "name": "A14.2.Q",
+                    "module_name": "blocks.14.hook_q_input",
+                    "layer": 29,
+                    "head_idx": 2,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_in",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 5",
+                    "module_name": "blocks.5.hook_mlp_out",
+                    "layer": 12,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.5.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 78
+                },
+                "dest": {
+                    "name": "A12.0.Q",
+                    "module_name": "blocks.12.hook_q_input",
+                    "layer": 25,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A8.3",
+                    "module_name": "blocks.8.attn.hook_result",
+                    "layer": 17,
+                    "head_idx": 3,
+                    "head_dim": 2,
+                    "weight": "blocks.8.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 108
+                },
+                "dest": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_in",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 7",
+                    "module_name": "blocks.7.hook_mlp_out",
+                    "layer": 16,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.7.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 104
+                },
+                "dest": {
+                    "name": "A15.1.V",
+                    "module_name": "blocks.15.hook_v_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "A13.1.Q",
+                    "module_name": "blocks.13.hook_q_input",
+                    "layer": 27,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.1",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 158
+                },
+                "dest": {
+                    "name": "A15.1.V",
+                    "module_name": "blocks.15.hook_v_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A14.9",
+                    "module_name": "blocks.14.attn.hook_result",
+                    "layer": 29,
+                    "head_idx": 9,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 192
+                },
+                "dest": {
+                    "name": "A15.1.V",
+                    "module_name": "blocks.15.hook_v_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.5",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 5,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 136
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A8.3",
+                    "module_name": "blocks.8.attn.hook_result",
+                    "layer": 17,
+                    "head_idx": 3,
+                    "head_dim": 2,
+                    "weight": "blocks.8.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 108
+                },
+                "dest": {
+                    "name": "A12.0.Q",
+                    "module_name": "blocks.12.hook_q_input",
+                    "layer": 25,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A14.3",
+                    "module_name": "blocks.14.attn.hook_result",
+                    "layer": 29,
+                    "head_idx": 3,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 186
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_out",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 182
+                },
+                "dest": {
+                    "name": "A14.11.Q",
+                    "module_name": "blocks.14.hook_q_input",
+                    "layer": 29,
+                    "head_idx": 11,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.5",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 5,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 136
+                },
+                "dest": {
+                    "name": "A11.1.V",
+                    "module_name": "blocks.11.hook_v_input",
+                    "layer": 23,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.11.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A5.10",
+                    "module_name": "blocks.5.attn.hook_result",
+                    "layer": 11,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.5.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 76
+                },
+                "dest": {
+                    "name": "A14.2.Q",
+                    "module_name": "blocks.14.hook_q_input",
+                    "layer": 29,
+                    "head_idx": 2,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 6",
+                    "module_name": "blocks.6.hook_mlp_out",
+                    "layer": 14,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.6.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 91
+                },
+                "dest": {
+                    "name": "MLP 7",
+                    "module_name": "blocks.7.hook_mlp_in",
+                    "layer": 16,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.7.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "Resid Start",
+                    "module_name": "blocks.0.hook_resid_pre",
+                    "layer": 0,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "embed.W_E",
+                    "weight_head_dim": null,
+                    "src_idx": 0
+                },
+                "dest": {
+                    "name": "A0.1.V",
+                    "module_name": "blocks.0.hook_v_input",
+                    "layer": 1,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.0.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_out",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 156
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.11",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 11,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 168
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A14.9",
+                    "module_name": "blocks.14.attn.hook_result",
+                    "layer": 29,
+                    "head_idx": 9,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 192
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 6",
+                    "module_name": "blocks.6.hook_mlp_out",
+                    "layer": 14,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.6.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 91
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_out",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 182
+                },
+                "dest": {
+                    "name": "A14.2.Q",
+                    "module_name": "blocks.14.hook_q_input",
+                    "layer": 29,
+                    "head_idx": 2,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.1",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 158
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 6",
+                    "module_name": "blocks.6.hook_mlp_out",
+                    "layer": 14,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.6.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 91
+                },
+                "dest": {
+                    "name": "A15.1.V",
+                    "module_name": "blocks.15.hook_v_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_out",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 169
+                },
+                "dest": {
+                    "name": "A13.10.Q",
+                    "module_name": "blocks.13.hook_q_input",
+                    "layer": 27,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.5",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 5,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 136
+                },
+                "dest": {
+                    "name": "A14.10.Q",
+                    "module_name": "blocks.14.hook_q_input",
+                    "layer": 29,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_out",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 117
+                },
+                "dest": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_in",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.5",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 5,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 136
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_out",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 117
+                },
+                "dest": {
+                    "name": "A12.2.Q",
+                    "module_name": "blocks.12.hook_q_input",
+                    "layer": 25,
+                    "head_idx": 2,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A14.2",
+                    "module_name": "blocks.14.attn.hook_result",
+                    "layer": 29,
+                    "head_idx": 2,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 185
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A8.7",
+                    "module_name": "blocks.8.attn.hook_result",
+                    "layer": 17,
+                    "head_idx": 7,
+                    "head_dim": 2,
+                    "weight": "blocks.8.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 112
+                },
+                "dest": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_in",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.10",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 167
+                },
+                "dest": {
+                    "name": "A13.0.Q",
+                    "module_name": "blocks.13.hook_q_input",
+                    "layer": 27,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.10",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 167
+                },
+                "dest": {
+                    "name": "A13.1.Q",
+                    "module_name": "blocks.13.hook_q_input",
+                    "layer": 27,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "A13.10.Q",
+                    "module_name": "blocks.13.hook_q_input",
+                    "layer": 27,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_out",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 117
+                },
+                "dest": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_in",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_out",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 117
+                },
+                "dest": {
+                    "name": "A12.0.Q",
+                    "module_name": "blocks.12.hook_q_input",
+                    "layer": 25,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 5",
+                    "module_name": "blocks.5.hook_mlp_out",
+                    "layer": 12,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.5.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 78
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.8",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 8,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 139
+                },
+                "dest": {
+                    "name": "A12.0.Q",
+                    "module_name": "blocks.12.hook_q_input",
+                    "layer": 25,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.9",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 9,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 140
+                },
+                "dest": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_in",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 7",
+                    "module_name": "blocks.7.hook_mlp_out",
+                    "layer": 16,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.7.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 104
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_out",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 156
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.5",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 5,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 136
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_out",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 117
+                },
+                "dest": {
+                    "name": "A13.1.Q",
+                    "module_name": "blocks.13.hook_q_input",
+                    "layer": 27,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 0",
+                    "module_name": "blocks.0.hook_mlp_out",
+                    "layer": 2,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.0.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 13
+                },
+                "dest": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_in",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_out",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 169
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "A15.1.V",
+                    "module_name": "blocks.15.hook_v_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A8.3",
+                    "module_name": "blocks.8.attn.hook_result",
+                    "layer": 17,
+                    "head_idx": 3,
+                    "head_dim": 2,
+                    "weight": "blocks.8.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 108
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.5",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 5,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 136
+                },
+                "dest": {
+                    "name": "A12.11.Q",
+                    "module_name": "blocks.12.hook_q_input",
+                    "layer": 25,
+                    "head_idx": 11,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 4",
+                    "module_name": "blocks.4.hook_mlp_out",
+                    "layer": 10,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.4.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 65
+                },
+                "dest": {
+                    "name": "A11.1.V",
+                    "module_name": "blocks.11.hook_v_input",
+                    "layer": 23,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.11.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A6.6",
+                    "module_name": "blocks.6.attn.hook_result",
+                    "layer": 13,
+                    "head_idx": 6,
+                    "head_dim": 2,
+                    "weight": "blocks.6.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 85
+                },
+                "dest": {
+                    "name": "A14.2.Q",
+                    "module_name": "blocks.14.hook_q_input",
+                    "layer": 29,
+                    "head_idx": 2,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A13.0",
+                    "module_name": "blocks.13.attn.hook_result",
+                    "layer": 27,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 170
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A5.10",
+                    "module_name": "blocks.5.attn.hook_result",
+                    "layer": 11,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.5.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 76
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "A10.0.V",
+                    "module_name": "blocks.10.hook_v_input",
+                    "layer": 21,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 0",
+                    "module_name": "blocks.0.hook_mlp_out",
+                    "layer": 2,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.0.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 13
+                },
+                "dest": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_in",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A5.6",
+                    "module_name": "blocks.5.attn.hook_result",
+                    "layer": 11,
+                    "head_idx": 6,
+                    "head_dim": 2,
+                    "weight": "blocks.5.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 72
+                },
+                "dest": {
+                    "name": "MLP 7",
+                    "module_name": "blocks.7.hook_mlp_in",
+                    "layer": 16,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.7.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "A12.10.Q",
+                    "module_name": "blocks.12.hook_q_input",
+                    "layer": 25,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_out",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 143
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_out",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 156
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 7",
+                    "module_name": "blocks.7.hook_mlp_out",
+                    "layer": 16,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.7.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 104
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A5.7",
+                    "module_name": "blocks.5.attn.hook_result",
+                    "layer": 11,
+                    "head_idx": 7,
+                    "head_dim": 2,
+                    "weight": "blocks.5.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 73
+                },
+                "dest": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_in",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A9.7",
+                    "module_name": "blocks.9.attn.hook_result",
+                    "layer": 19,
+                    "head_idx": 7,
+                    "head_dim": 2,
+                    "weight": "blocks.9.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 125
+                },
+                "dest": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_in",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "A11.1.V",
+                    "module_name": "blocks.11.hook_v_input",
+                    "layer": 23,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.11.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A8.3",
+                    "module_name": "blocks.8.attn.hook_result",
+                    "layer": 17,
+                    "head_idx": 3,
+                    "head_dim": 2,
+                    "weight": "blocks.8.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 108
+                },
+                "dest": {
+                    "name": "A10.0.V",
+                    "module_name": "blocks.10.hook_v_input",
+                    "layer": 21,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_out",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 169
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A9.6",
+                    "module_name": "blocks.9.attn.hook_result",
+                    "layer": 19,
+                    "head_idx": 6,
+                    "head_dim": 2,
+                    "weight": "blocks.9.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 124
+                },
+                "dest": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_in",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 6",
+                    "module_name": "blocks.6.hook_mlp_out",
+                    "layer": 14,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.6.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 91
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "A10.0.Q",
+                    "module_name": "blocks.10.hook_q_input",
+                    "layer": 21,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_out",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 143
+                },
+                "dest": {
+                    "name": "A13.10.Q",
+                    "module_name": "blocks.13.hook_q_input",
+                    "layer": 27,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A8.3",
+                    "module_name": "blocks.8.attn.hook_result",
+                    "layer": 17,
+                    "head_idx": 3,
+                    "head_dim": 2,
+                    "weight": "blocks.8.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 108
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.1",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 158
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.3",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 3,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 160
+                },
+                "dest": {
+                    "name": "A14.2.Q",
+                    "module_name": "blocks.14.hook_q_input",
+                    "layer": 29,
+                    "head_idx": 2,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_out",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 169
+                },
+                "dest": {
+                    "name": "A14.10.Q",
+                    "module_name": "blocks.14.hook_q_input",
+                    "layer": 29,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_out",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 117
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 6",
+                    "module_name": "blocks.6.hook_mlp_out",
+                    "layer": 14,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.6.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 91
+                },
+                "dest": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_in",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A14.0",
+                    "module_name": "blocks.14.attn.hook_result",
+                    "layer": 29,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 183
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A8.7",
+                    "module_name": "blocks.8.attn.hook_result",
+                    "layer": 17,
+                    "head_idx": 7,
+                    "head_dim": 2,
+                    "weight": "blocks.8.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 112
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A9.6",
+                    "module_name": "blocks.9.attn.hook_result",
+                    "layer": 19,
+                    "head_idx": 6,
+                    "head_dim": 2,
+                    "weight": "blocks.9.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 124
+                },
+                "dest": {
+                    "name": "A12.0.Q",
+                    "module_name": "blocks.12.hook_q_input",
+                    "layer": 25,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_out",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 117
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.8",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 8,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 139
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A13.10",
+                    "module_name": "blocks.13.attn.hook_result",
+                    "layer": 27,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 180
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_out",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 182
+                },
+                "dest": {
+                    "name": "A15.1.V",
+                    "module_name": "blocks.15.hook_v_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_out",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 169
+                },
+                "dest": {
+                    "name": "A14.1.V",
+                    "module_name": "blocks.14.hook_v_input",
+                    "layer": 29,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_out",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 156
+                },
+                "dest": {
+                    "name": "MLP 15",
+                    "module_name": "blocks.15.hook_mlp_in",
+                    "layer": 32,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.15.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A14.4",
+                    "module_name": "blocks.14.attn.hook_result",
+                    "layer": 29,
+                    "head_idx": 4,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 187
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A5.10",
+                    "module_name": "blocks.5.attn.hook_result",
+                    "layer": 11,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.5.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 76
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.11",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 11,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 168
+                },
+                "dest": {
+                    "name": "A14.2.Q",
+                    "module_name": "blocks.14.hook_q_input",
+                    "layer": 29,
+                    "head_idx": 2,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_out",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 156
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_out",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 143
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.5",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 5,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 136
+                },
+                "dest": {
+                    "name": "MLP 11",
+                    "module_name": "blocks.11.hook_mlp_in",
+                    "layer": 24,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.11.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_out",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 169
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.10",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 167
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 6",
+                    "module_name": "blocks.6.hook_mlp_out",
+                    "layer": 14,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.6.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 91
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_out",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 182
+                },
+                "dest": {
+                    "name": "MLP 15",
+                    "module_name": "blocks.15.hook_mlp_in",
+                    "layer": 32,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.15.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_out",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 117
+                },
+                "dest": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_in",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A8.7",
+                    "module_name": "blocks.8.attn.hook_result",
+                    "layer": 17,
+                    "head_idx": 7,
+                    "head_dim": 2,
+                    "weight": "blocks.8.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 112
+                },
+                "dest": {
+                    "name": "A12.0.Q",
+                    "module_name": "blocks.12.hook_q_input",
+                    "layer": 25,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 15",
+                    "module_name": "blocks.15.hook_mlp_out",
+                    "layer": 32,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.15.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 208
+                },
+                "dest": {
+                    "name": "MLP 16",
+                    "module_name": "blocks.16.hook_mlp_in",
+                    "layer": 34,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.16.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A13.1",
+                    "module_name": "blocks.13.attn.hook_result",
+                    "layer": 27,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 171
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A11.3",
+                    "module_name": "blocks.11.attn.hook_result",
+                    "layer": 23,
+                    "head_idx": 3,
+                    "head_dim": 2,
+                    "weight": "blocks.11.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 147
+                },
+                "dest": {
+                    "name": "MLP 12",
+                    "module_name": "blocks.12.hook_mlp_in",
+                    "layer": 26,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.12.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 0",
+                    "module_name": "blocks.0.hook_mlp_out",
+                    "layer": 2,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.0.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 13
+                },
+                "dest": {
+                    "name": "MLP 7",
+                    "module_name": "blocks.7.hook_mlp_in",
+                    "layer": 16,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.7.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_out",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 117
+                },
+                "dest": {
+                    "name": "MLP 15",
+                    "module_name": "blocks.15.hook_mlp_in",
+                    "layer": 32,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.15.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.1",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 158
+                },
+                "dest": {
+                    "name": "A13.1.V",
+                    "module_name": "blocks.13.hook_v_input",
+                    "layer": 27,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.13.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_out",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 143
+                },
+                "dest": {
+                    "name": "A11.1.V",
+                    "module_name": "blocks.11.hook_v_input",
+                    "layer": 23,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.11.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.5",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 5,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 136
+                },
+                "dest": {
+                    "name": "A12.0.Q",
+                    "module_name": "blocks.12.hook_q_input",
+                    "layer": 25,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A10.5",
+                    "module_name": "blocks.10.attn.hook_result",
+                    "layer": 21,
+                    "head_idx": 5,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 136
+                },
+                "dest": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_in",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A5.10",
+                    "module_name": "blocks.5.attn.hook_result",
+                    "layer": 11,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.5.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 76
+                },
+                "dest": {
+                    "name": "MLP 7",
+                    "module_name": "blocks.7.hook_mlp_in",
+                    "layer": 16,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.7.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_out",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 195
+                },
+                "dest": {
+                    "name": "A15.1.V",
+                    "module_name": "blocks.15.hook_v_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_out",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 182
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A6.6",
+                    "module_name": "blocks.6.attn.hook_result",
+                    "layer": 13,
+                    "head_idx": 6,
+                    "head_dim": 2,
+                    "weight": "blocks.6.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 85
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_out",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 130
+                },
+                "dest": {
+                    "name": "A15.1.K",
+                    "module_name": "blocks.15.hook_k_input",
+                    "layer": 31,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_K",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_out",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 117
+                },
+                "dest": {
+                    "name": "A10.0.V",
+                    "module_name": "blocks.10.hook_v_input",
+                    "layer": 21,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.10.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A7.3",
+                    "module_name": "blocks.7.attn.hook_result",
+                    "layer": 15,
+                    "head_idx": 3,
+                    "head_dim": 2,
+                    "weight": "blocks.7.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 95
+                },
+                "dest": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_in",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_out",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 117
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_out",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 143
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A6.7",
+                    "module_name": "blocks.6.attn.hook_result",
+                    "layer": 13,
+                    "head_idx": 7,
+                    "head_dim": 2,
+                    "weight": "blocks.6.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 86
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.10",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 167
+                },
+                "dest": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_in",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A12.1",
+                    "module_name": "blocks.12.attn.hook_result",
+                    "layer": 25,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.12.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 158
+                },
+                "dest": {
+                    "name": "A14.2.Q",
+                    "module_name": "blocks.14.hook_q_input",
+                    "layer": 29,
+                    "head_idx": 2,
+                    "head_dim": 2,
+                    "weight": "blocks.14.attn.W_Q",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 8",
+                    "module_name": "blocks.8.hook_mlp_out",
+                    "layer": 18,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.8.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 117
+                },
+                "dest": {
+                    "name": "A11.1.V",
+                    "module_name": "blocks.11.hook_v_input",
+                    "layer": 23,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.11.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "MLP 7",
+                    "module_name": "blocks.7.hook_mlp_out",
+                    "layer": 16,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.7.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 104
+                },
+                "dest": {
+                    "name": "MLP 10",
+                    "module_name": "blocks.10.hook_mlp_in",
+                    "layer": 22,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.10.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A6.6",
+                    "module_name": "blocks.6.attn.hook_result",
+                    "layer": 13,
+                    "head_idx": 6,
+                    "head_dim": 2,
+                    "weight": "blocks.6.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 85
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            },
+            {
+                "src": {
+                    "name": "A5.10",
+                    "module_name": "blocks.5.attn.hook_result",
+                    "layer": 11,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.5.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 76
+                },
+                "dest": {
+                    "name": "MLP 9",
+                    "module_name": "blocks.9.hook_mlp_in",
+                    "layer": 20,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.9.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 92
+            }
+        ],
+        "[.]_occ_6": [
+            {
+                "src": {
+                    "name": "MLP 13",
+                    "module_name": "blocks.13.hook_mlp_out",
+                    "layer": 28,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.13.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 182
+                },
+                "dest": {
+                    "name": "MLP 14",
+                    "module_name": "blocks.14.hook_mlp_in",
+                    "layer": 30,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.14.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 94
+            },
+            {
+                "src": {
+                    "name": "A15.10",
+                    "module_name": "blocks.15.attn.hook_result",
+                    "layer": 31,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 206
+                },
+                "dest": {
+                    "name": "MLP 15",
+                    "module_name": "blocks.15.hook_mlp_in",
+                    "layer": 32,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.15.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 94
+            }
+        ],
+        "[newline]_occ_4": [
+            {
+                "src": {
+                    "name": "MLP 15",
+                    "module_name": "blocks.15.hook_mlp_out",
+                    "layer": 32,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.15.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 208
+                },
+                "dest": {
+                    "name": "A16.1.V",
+                    "module_name": "blocks.16.hook_v_input",
+                    "layer": 33,
+                    "head_idx": 1,
+                    "head_dim": 2,
+                    "weight": "blocks.16.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 96
+            },
+            {
+                "src": {
+                    "name": "A16.7",
+                    "module_name": "blocks.16.attn.hook_result",
+                    "layer": 33,
+                    "head_idx": 7,
+                    "head_dim": 2,
+                    "weight": "blocks.16.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 216
+                },
+                "dest": {
+                    "name": "A17.0.V",
+                    "module_name": "blocks.17.hook_v_input",
+                    "layer": 35,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.17.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 96
+            },
+            {
+                "src": {
+                    "name": "A15.10",
+                    "module_name": "blocks.15.attn.hook_result",
+                    "layer": 31,
+                    "head_idx": 10,
+                    "head_dim": 2,
+                    "weight": "blocks.15.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 206
+                },
+                "dest": {
+                    "name": "MLP 15",
+                    "module_name": "blocks.15.hook_mlp_in",
+                    "layer": 32,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.15.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 96
+            },
+            {
+                "src": {
+                    "name": "MLP 15",
+                    "module_name": "blocks.15.hook_mlp_out",
+                    "layer": 32,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.15.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 208
+                },
+                "dest": {
+                    "name": "A17.0.V",
+                    "module_name": "blocks.17.hook_v_input",
+                    "layer": 35,
+                    "head_idx": 0,
+                    "head_dim": 2,
+                    "weight": "blocks.17.attn.W_V",
+                    "weight_head_dim": 0,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 96
+            }
+        ],
+        "is": [
+            {
+                "src": {
+                    "name": "MLP 26",
+                    "module_name": "blocks.26.hook_mlp_out",
+                    "layer": 54,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.26.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 351
+                },
+                "dest": {
+                    "name": "MLP 27",
+                    "module_name": "blocks.27.hook_mlp_in",
+                    "layer": 56,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.27.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 105
+            },
+            {
+                "src": {
+                    "name": "MLP 19",
+                    "module_name": "blocks.19.hook_mlp_out",
+                    "layer": 40,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.19.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 260
+                },
+                "dest": {
+                    "name": "Resid End",
+                    "module_name": "blocks.27.hook_resid_post",
+                    "layer": 57,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "unembed.W_U",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 105
+            },
+            {
+                "src": {
+                    "name": "MLP 17",
+                    "module_name": "blocks.17.hook_mlp_out",
+                    "layer": 36,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.17.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 234
+                },
+                "dest": {
+                    "name": "MLP 18",
+                    "module_name": "blocks.18.hook_mlp_in",
+                    "layer": 38,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.18.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 105
+            },
+            {
+                "src": {
+                    "name": "A18.11",
+                    "module_name": "blocks.18.attn.hook_result",
+                    "layer": 37,
+                    "head_idx": 11,
+                    "head_dim": 2,
+                    "weight": "blocks.18.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 246
+                },
+                "dest": {
+                    "name": "MLP 18",
+                    "module_name": "blocks.18.hook_mlp_in",
+                    "layer": 38,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.18.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 105
+            },
+            {
+                "src": {
+                    "name": "MLP 22",
+                    "module_name": "blocks.22.hook_mlp_out",
+                    "layer": 46,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.22.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 299
+                },
+                "dest": {
+                    "name": "Resid End",
+                    "module_name": "blocks.27.hook_resid_post",
+                    "layer": 57,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "unembed.W_U",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 105
+            },
+            {
+                "src": {
+                    "name": "A24.4",
+                    "module_name": "blocks.24.attn.hook_result",
+                    "layer": 49,
+                    "head_idx": 4,
+                    "head_dim": 2,
+                    "weight": "blocks.24.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 317
+                },
+                "dest": {
+                    "name": "Resid End",
+                    "module_name": "blocks.27.hook_resid_post",
+                    "layer": 57,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "unembed.W_U",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 105
+            },
+            {
+                "src": {
+                    "name": "MLP 21",
+                    "module_name": "blocks.21.hook_mlp_out",
+                    "layer": 44,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.21.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 286
+                },
+                "dest": {
+                    "name": "Resid End",
+                    "module_name": "blocks.27.hook_resid_post",
+                    "layer": 57,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "unembed.W_U",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 105
+            },
+            {
+                "src": {
+                    "name": "MLP 23",
+                    "module_name": "blocks.23.hook_mlp_out",
+                    "layer": 48,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.23.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 312
+                },
+                "dest": {
+                    "name": "Resid End",
+                    "module_name": "blocks.27.hook_resid_post",
+                    "layer": 57,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "unembed.W_U",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 105
+            },
+            {
+                "src": {
+                    "name": "A24.2",
+                    "module_name": "blocks.24.attn.hook_result",
+                    "layer": 49,
+                    "head_idx": 2,
+                    "head_dim": 2,
+                    "weight": "blocks.24.attn.W_O",
+                    "weight_head_dim": 0,
+                    "src_idx": 315
+                },
+                "dest": {
+                    "name": "Resid End",
+                    "module_name": "blocks.27.hook_resid_post",
+                    "layer": 57,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "unembed.W_U",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 105
+            },
+            {
+                "src": {
+                    "name": "MLP 27",
+                    "module_name": "blocks.27.hook_mlp_out",
+                    "layer": 56,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.27.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 364
+                },
+                "dest": {
+                    "name": "Resid End",
+                    "module_name": "blocks.27.hook_resid_post",
+                    "layer": 57,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "unembed.W_U",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 105
+            },
+            {
+                "src": {
+                    "name": "MLP 21",
+                    "module_name": "blocks.21.hook_mlp_out",
+                    "layer": 44,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.21.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 286
+                },
+                "dest": {
+                    "name": "MLP 27",
+                    "module_name": "blocks.27.hook_mlp_in",
+                    "layer": 56,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.27.mlp.W_in",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 105
+            },
+            {
+                "src": {
+                    "name": "MLP 26",
+                    "module_name": "blocks.26.hook_mlp_out",
+                    "layer": 54,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "blocks.26.mlp.W_out",
+                    "weight_head_dim": null,
+                    "src_idx": 351
+                },
+                "dest": {
+                    "name": "Resid End",
+                    "module_name": "blocks.27.hook_resid_post",
+                    "layer": 57,
+                    "head_idx": null,
+                    "head_dim": null,
+                    "weight": "unembed.W_U",
+                    "weight_head_dim": null,
+                    "min_src_idx": 0
+                },
+                "seq_idx": 105
+            }
+        ]
+    },
+    "num_edges": 181
+}

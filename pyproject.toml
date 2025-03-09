@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llm-reasoning-mistake"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformer-lens = "^2.8.1"
+pre-commit = "^4.0.1"
+auto-circuit = { git = "https://github.com/PMMon/auto-circuit.git" }
+matplotlib = "^3.9.3"
+pygraphviz = "^1.14"
+cmapy = "^0.6.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

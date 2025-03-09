@@ -1,0 +1,2804 @@
+{
+    "prompts": [
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River has 6 candles. She received 8 more candles. How many candles does she have now? Reasoning: River has 6 + 8 = 14 candles. So, she has 14 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River has 6 candles. She received 8 more candles. How many candles does she have now? Reasoning: River has 6 + 8 = 13 candles. So, she has 13 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Alice has 3 jackets. She gathered 8 more jackets. How many jackets does she have now? Reasoning: Alice has 3 + 8 = 11 jackets. So, she has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Alice has 3 jackets. She gathered 8 more jackets. How many jackets does she have now? Reasoning: Alice has 3 + 8 = 12 jackets. So, she has 12 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Ian has 4 tickets. He won 8 more tickets. How many tickets does he have now? Reasoning: Ian has 4 + 8 = 12 tickets. So, he has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Ian has 4 tickets. He won 8 more tickets. How many tickets does he have now? Reasoning: Ian has 4 + 8 = 19 tickets. So, he has 19 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice has 3 pillows. She won 9 more pillows. How many pillows does she have now? Reasoning: Alice has 3 + 9 = 12 pillows. So, she has 12 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice has 3 pillows. She won 9 more pillows. How many pillows does she have now? Reasoning: Alice has 3 + 9 = 18 pillows. So, she has 18 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River has 6 candles. She bought 8 more candles. How many candles does she have now? Reasoning: River has 6 + 8 = 14 candles. So, she has 14 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River has 6 candles. She bought 8 more candles. How many candles does she have now? Reasoning: River has 6 + 8 = 12 candles. So, she has 12 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas has 2 tickets. He received 8 more tickets. How many tickets does he have now? Reasoning: Thomas has 2 + 8 = 10 tickets. So, he has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas has 2 tickets. He received 8 more tickets. How many tickets does he have now? Reasoning: Thomas has 2 + 8 = 16 tickets. So, he has 16 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 7 candles. She won 9 more candles. How many candles does she have now? Reasoning: Kelly has 7 + 9 = 16 candles. So, she has 16 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 7 candles. She won 9 more candles. How many candles does she have now? Reasoning: Kelly has 7 + 9 = 13 candles. So, she has 13 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian has 6 tickets. He gained 8 more tickets. How many tickets does he have now? Reasoning: Ian has 6 + 8 = 14 tickets. So, he has 14 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian has 6 tickets. He gained 8 more tickets. How many tickets does he have now? Reasoning: Ian has 6 + 8 = 19 tickets. So, he has 19 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Thomas has 7 cameras. He received 9 more cameras. How many cameras does he have now? Reasoning: Thomas has 7 + 9 = 16 cameras. So, he has 16 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Thomas has 7 cameras. He received 9 more cameras. How many cameras does he have now? Reasoning: Thomas has 7 + 9 = 14 cameras. So, he has 14 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 5 cameras. She received 8 more cameras. How many cameras does she have now? Reasoning: Kelly has 5 + 8 = 13 cameras. So, she has 13 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 5 cameras. She received 8 more cameras. How many cameras does she have now? Reasoning: Kelly has 5 + 8 = 11 cameras. So, she has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Thomas has 2 pillows. He gained 9 more pillows. How many pillows does he have now? Reasoning: Thomas has 2 + 9 = 11 pillows. So, he has 11 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Thomas has 2 pillows. He gained 9 more pillows. How many pillows does he have now? Reasoning: Thomas has 2 + 9 = 16 pillows. So, he has 16 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Thomas has 7 jackets. He gathered 9 more jackets. How many jackets does he have now? Reasoning: Thomas has 7 + 9 = 16 jackets. So, he has 16 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Thomas has 7 jackets. He gathered 9 more jackets. How many jackets does he have now? Reasoning: Thomas has 7 + 9 = 10 jackets. So, he has 10 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River has 3 tickets. She received 7 more tickets. How many tickets does she have now? Reasoning: River has 3 + 7 = 10 tickets. So, she has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River has 3 tickets. She received 7 more tickets. How many tickets does she have now? Reasoning: River has 3 + 7 = 12 tickets. So, she has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Thomas has 2 jackets. He received 9 more jackets. How many jackets does he have now? Reasoning: Thomas has 2 + 9 = 11 jackets. So, he has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Thomas has 2 jackets. He received 9 more jackets. How many jackets does he have now? Reasoning: Thomas has 2 + 9 = 14 jackets. So, he has 14 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 5 pillows. She received 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 5 + 9 = 14 pillows. So, she has 14 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 5 pillows. She received 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 5 + 9 = 13 pillows. So, she has 13 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 5 pillows. She gained 7 more pillows. How many pillows does she have now? Reasoning: Kelly has 5 + 7 = 12 pillows. So, she has 12 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 5 pillows. She gained 7 more pillows. How many pillows does she have now? Reasoning: Kelly has 5 + 7 = 19 pillows. So, she has 19 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River has 5 cameras. She gathered 9 more cameras. How many cameras does she have now? Reasoning: River has 5 + 9 = 14 cameras. So, she has 14 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River has 5 cameras. She gathered 9 more cameras. How many cameras does she have now? Reasoning: River has 5 + 9 = 19 cameras. So, she has 19 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River has 4 pillows. She received 9 more pillows. How many pillows does she have now? Reasoning: River has 4 + 9 = 13 pillows. So, she has 13 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River has 4 pillows. She received 9 more pillows. How many pillows does she have now? Reasoning: River has 4 + 9 = 11 pillows. So, she has 11 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Alice has 8 pillows. She gained 9 more pillows. How many pillows does she have now? Reasoning: Alice has 8 + 9 = 17 pillows. So, she has 17 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Alice has 8 pillows. She gained 9 more pillows. How many pillows does she have now? Reasoning: Alice has 8 + 9 = 10 pillows. So, she has 10 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas has 3 candles. He bought 8 more candles. How many candles does he have now? Reasoning: Thomas has 3 + 8 = 11 candles. So, he has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas has 3 candles. He bought 8 more candles. How many candles does he have now? Reasoning: Thomas has 3 + 8 = 16 candles. So, he has 16 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice has 3 jackets. She won 8 more jackets. How many jackets does she have now? Reasoning: Alice has 3 + 8 = 11 jackets. So, she has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice has 3 jackets. She won 8 more jackets. How many jackets does she have now? Reasoning: Alice has 3 + 8 = 18 jackets. So, she has 18 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Alice has 5 candles. She gathered 9 more candles. How many candles does she have now? Reasoning: Alice has 5 + 9 = 14 candles. So, she has 14 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Alice has 5 candles. She gathered 9 more candles. How many candles does she have now? Reasoning: Alice has 5 + 9 = 16 candles. So, she has 16 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice has 5 cameras. She won 6 more cameras. How many cameras does she have now? Reasoning: Alice has 5 + 6 = 11 cameras. So, she has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice has 5 cameras. She won 6 more cameras. How many cameras does she have now? Reasoning: Alice has 5 + 6 = 16 cameras. So, she has 16 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 3 jackets. She gathered 8 more jackets. How many jackets does she have now? Reasoning: River has 3 + 8 = 11 jackets. So, she has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 3 jackets. She gathered 8 more jackets. How many jackets does she have now? Reasoning: River has 3 + 8 = 16 jackets. So, she has 16 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Kelly has 3 candles. She received 8 more candles. How many candles does she have now? Reasoning: Kelly has 3 + 8 = 11 candles. So, she has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Kelly has 3 candles. She received 8 more candles. How many candles does she have now? Reasoning: Kelly has 3 + 8 = 15 candles. So, she has 15 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River has 8 tickets. She gathered 9 more tickets. How many tickets does she have now? Reasoning: River has 8 + 9 = 17 tickets. So, she has 17 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River has 8 tickets. She gathered 9 more tickets. How many tickets does she have now? Reasoning: River has 8 + 9 = 18 tickets. So, she has 18 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Alice has 7 jackets. She gathered 9 more jackets. How many jackets does she have now? Reasoning: Alice has 7 + 9 = 16 jackets. So, she has 16 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Alice has 7 jackets. She gathered 9 more jackets. How many jackets does she have now? Reasoning: Alice has 7 + 9 = 11 jackets. So, she has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River has 6 cameras. She gained 9 more cameras. How many cameras does she have now? Reasoning: River has 6 + 9 = 15 cameras. So, she has 15 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River has 6 cameras. She gained 9 more cameras. How many cameras does she have now? Reasoning: River has 6 + 9 = 14 cameras. So, she has 14 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Alice has 5 jackets. She won 7 more jackets. How many jackets does she have now? Reasoning: Alice has 5 + 7 = 12 jackets. So, she has 12 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Alice has 5 jackets. She won 7 more jackets. How many jackets does she have now? Reasoning: Alice has 5 + 7 = 11 jackets. So, she has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Thomas has 6 cameras. He received 7 more cameras. How many cameras does he have now? Reasoning: Thomas has 6 + 7 = 13 cameras. So, he has 13 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Thomas has 6 cameras. He received 7 more cameras. How many cameras does he have now? Reasoning: Thomas has 6 + 7 = 10 cameras. So, he has 10 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 3 pillows. She bought 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 3 + 9 = 12 pillows. So, she has 12 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 3 pillows. She bought 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 3 + 9 = 15 pillows. So, she has 15 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Alice has 3 candles. She gathered 9 more candles. How many candles does she have now? Reasoning: Alice has 3 + 9 = 12 candles. So, she has 12 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Alice has 3 candles. She gathered 9 more candles. How many candles does she have now? Reasoning: Alice has 3 + 9 = 18 candles. So, she has 18 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River has 7 pillows. She gathered 8 more pillows. How many pillows does she have now? Reasoning: River has 7 + 8 = 15 pillows. So, she has 15 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River has 7 pillows. She gathered 8 more pillows. How many pillows does she have now? Reasoning: River has 7 + 8 = 10 pillows. So, she has 10 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River has 7 tickets. She received 8 more tickets. How many tickets does she have now? Reasoning: River has 7 + 8 = 15 tickets. So, she has 15 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River has 7 tickets. She received 8 more tickets. How many tickets does she have now? Reasoning: River has 7 + 8 = 10 tickets. So, she has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Alice has 6 cameras. She gathered 7 more cameras. How many cameras does she have now? Reasoning: Alice has 6 + 7 = 13 cameras. So, she has 13 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Alice has 6 cameras. She gathered 7 more cameras. How many cameras does she have now? Reasoning: Alice has 6 + 7 = 16 cameras. So, she has 16 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River has 2 tickets. She gathered 8 more tickets. How many tickets does she have now? Reasoning: River has 2 + 8 = 10 tickets. So, she has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River has 2 tickets. She gathered 8 more tickets. How many tickets does she have now? Reasoning: River has 2 + 8 = 13 tickets. So, she has 13 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Ian has 4 pillows. He received 7 more pillows. How many pillows does he have now? Reasoning: Ian has 4 + 7 = 11 pillows. So, he has 11 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Ian has 4 pillows. He received 7 more pillows. How many pillows does he have now? Reasoning: Ian has 4 + 7 = 18 pillows. So, he has 18 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 2 jackets. She gained 8 more jackets. How many jackets does she have now? Reasoning: Kelly has 2 + 8 = 10 jackets. So, she has 10 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 2 jackets. She gained 8 more jackets. How many jackets does she have now? Reasoning: Kelly has 2 + 8 = 13 jackets. So, she has 13 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 3 cameras. She gathered 8 more cameras. How many cameras does she have now? Reasoning: Kelly has 3 + 8 = 11 cameras. So, she has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 3 cameras. She gathered 8 more cameras. How many cameras does she have now? Reasoning: Kelly has 3 + 8 = 14 cameras. So, she has 14 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 4 pillows. She gathered 7 more pillows. How many pillows does she have now? Reasoning: Kelly has 4 + 7 = 11 pillows. So, she has 11 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 4 pillows. She gathered 7 more pillows. How many pillows does she have now? Reasoning: Kelly has 4 + 7 = 14 pillows. So, she has 14 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas has 7 jackets. He won 9 more jackets. How many jackets does he have now? Reasoning: Thomas has 7 + 9 = 16 jackets. So, he has 16 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas has 7 jackets. He won 9 more jackets. How many jackets does he have now? Reasoning: Thomas has 7 + 9 = 14 jackets. So, he has 14 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Thomas has 4 jackets. He gained 9 more jackets. How many jackets does he have now? Reasoning: Thomas has 4 + 9 = 13 jackets. So, he has 13 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Thomas has 4 jackets. He gained 9 more jackets. How many jackets does he have now? Reasoning: Thomas has 4 + 9 = 10 jackets. So, he has 10 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 8 jackets. She received 9 more jackets. How many jackets does she have now? Reasoning: Kelly has 8 + 9 = 17 jackets. So, she has 17 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 8 jackets. She received 9 more jackets. How many jackets does she have now? Reasoning: Kelly has 8 + 9 = 10 jackets. So, she has 10 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 2 pillows. She received 8 more pillows. How many pillows does she have now? Reasoning: River has 2 + 8 = 10 pillows. So, she has 10 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 2 pillows. She received 8 more pillows. How many pillows does she have now? Reasoning: River has 2 + 8 = 16 pillows. So, she has 16 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 6 pillows. She bought 8 more pillows. How many pillows does she have now? Reasoning: River has 6 + 8 = 14 pillows. So, she has 14 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 6 pillows. She bought 8 more pillows. How many pillows does she have now? Reasoning: River has 6 + 8 = 19 pillows. So, she has 19 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Ian has 6 jackets. He gathered 9 more jackets. How many jackets does he have now? Reasoning: Ian has 6 + 9 = 15 jackets. So, he has 15 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Ian has 6 jackets. He gathered 9 more jackets. How many jackets does he have now? Reasoning: Ian has 6 + 9 = 18 jackets. So, he has 18 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 4 pillows. She bought 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 4 + 9 = 13 pillows. So, she has 13 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 4 pillows. She bought 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 4 + 9 = 14 pillows. So, she has 14 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian has 5 candles. He bought 6 more candles. How many candles does he have now? Reasoning: Ian has 5 + 6 = 11 candles. So, he has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian has 5 candles. He bought 6 more candles. How many candles does he have now? Reasoning: Ian has 5 + 6 = 16 candles. So, he has 16 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly has 4 candles. She received 7 more candles. How many candles does she have now? Reasoning: Kelly has 4 + 7 = 11 candles. So, she has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly has 4 candles. She received 7 more candles. How many candles does she have now? Reasoning: Kelly has 4 + 7 = 17 candles. So, she has 17 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Kelly has 3 pillows. She received 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 3 + 9 = 12 pillows. So, she has 12 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Kelly has 3 pillows. She received 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 3 + 9 = 17 pillows. So, she has 17 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Ian has 5 jackets. He received 9 more jackets. How many jackets does he have now? Reasoning: Ian has 5 + 9 = 14 jackets. So, he has 14 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Ian has 5 jackets. He received 9 more jackets. How many jackets does he have now? Reasoning: Ian has 5 + 9 = 15 jackets. So, he has 15 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 7 tickets. She gained 9 more tickets. How many tickets does she have now? Reasoning: Kelly has 7 + 9 = 16 tickets. So, she has 16 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 7 tickets. She gained 9 more tickets. How many tickets does she have now? Reasoning: Kelly has 7 + 9 = 12 tickets. So, she has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 6 cameras. She gathered 9 more cameras. How many cameras does she have now? Reasoning: River has 6 + 9 = 15 cameras. So, she has 15 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 6 cameras. She gathered 9 more cameras. How many cameras does she have now? Reasoning: River has 6 + 9 = 17 cameras. So, she has 17 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian has 6 cameras. He won 8 more cameras. How many cameras does he have now? Reasoning: Ian has 6 + 8 = 14 cameras. So, he has 14 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian has 6 cameras. He won 8 more cameras. How many cameras does he have now? Reasoning: Ian has 6 + 8 = 17 cameras. So, he has 17 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian has 4 candles. He gathered 6 more candles. How many candles does he have now? Reasoning: Ian has 4 + 6 = 10 candles. So, he has 10 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian has 4 candles. He gathered 6 more candles. How many candles does he have now? Reasoning: Ian has 4 + 6 = 15 candles. So, he has 15 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly has 3 candles. She received 9 more candles. How many candles does she have now? Reasoning: Kelly has 3 + 9 = 12 candles. So, she has 12 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly has 3 candles. She received 9 more candles. How many candles does she have now? Reasoning: Kelly has 3 + 9 = 19 candles. So, she has 19 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Ian has 2 tickets. He won 8 more tickets. How many tickets does he have now? Reasoning: Ian has 2 + 8 = 10 tickets. So, he has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Ian has 2 tickets. He won 8 more tickets. How many tickets does he have now? Reasoning: Ian has 2 + 8 = 17 tickets. So, he has 17 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 3 tickets. She gathered 7 more tickets. How many tickets does she have now? Reasoning: Kelly has 3 + 7 = 10 tickets. So, she has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 3 tickets. She gathered 7 more tickets. How many tickets does she have now? Reasoning: Kelly has 3 + 7 = 14 tickets. So, she has 14 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Thomas has 6 pillows. He gathered 8 more pillows. How many pillows does he have now? Reasoning: Thomas has 6 + 8 = 14 pillows. So, he has 14 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Thomas has 6 pillows. He gathered 8 more pillows. How many pillows does he have now? Reasoning: Thomas has 6 + 8 = 15 pillows. So, he has 15 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice has 6 jackets. She received 7 more jackets. How many jackets does she have now? Reasoning: Alice has 6 + 7 = 13 jackets. So, she has 13 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice has 6 jackets. She received 7 more jackets. How many jackets does she have now? Reasoning: Alice has 6 + 7 = 11 jackets. So, she has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian has 5 tickets. He bought 9 more tickets. How many tickets does he have now? Reasoning: Ian has 5 + 9 = 14 tickets. So, he has 14 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian has 5 tickets. He bought 9 more tickets. How many tickets does he have now? Reasoning: Ian has 5 + 9 = 10 tickets. So, he has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 4 cameras. She won 7 more cameras. How many cameras does she have now? Reasoning: Kelly has 4 + 7 = 11 cameras. So, she has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 4 cameras. She won 7 more cameras. How many cameras does she have now? Reasoning: Kelly has 4 + 7 = 12 cameras. So, she has 12 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River has 5 jackets. She gathered 8 more jackets. How many jackets does she have now? Reasoning: River has 5 + 8 = 13 jackets. So, she has 13 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River has 5 jackets. She gathered 8 more jackets. How many jackets does she have now? Reasoning: River has 5 + 8 = 19 jackets. So, she has 19 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice has 4 cameras. She won 9 more cameras. How many cameras does she have now? Reasoning: Alice has 4 + 9 = 13 cameras. So, she has 13 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice has 4 cameras. She won 9 more cameras. How many cameras does she have now? Reasoning: Alice has 4 + 9 = 15 cameras. So, she has 15 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Thomas has 4 tickets. He bought 6 more tickets. How many tickets does he have now? Reasoning: Thomas has 4 + 6 = 10 tickets. So, he has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Thomas has 4 tickets. He bought 6 more tickets. How many tickets does he have now? Reasoning: Thomas has 4 + 6 = 13 tickets. So, he has 13 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River has 4 jackets. She gained 6 more jackets. How many jackets does she have now? Reasoning: River has 4 + 6 = 10 jackets. So, she has 10 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River has 4 jackets. She gained 6 more jackets. How many jackets does she have now? Reasoning: River has 4 + 6 = 14 jackets. So, she has 14 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Ian has 5 tickets. He received 8 more tickets. How many tickets does he have now? Reasoning: Ian has 5 + 8 = 13 tickets. So, he has 13 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Ian has 5 tickets. He received 8 more tickets. How many tickets does he have now? Reasoning: Ian has 5 + 8 = 15 tickets. So, he has 15 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Kelly has 5 tickets. She gained 6 more tickets. How many tickets does she have now? Reasoning: Kelly has 5 + 6 = 11 tickets. So, she has 11 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Kelly has 5 tickets. She gained 6 more tickets. How many tickets does she have now? Reasoning: Kelly has 5 + 6 = 18 tickets. So, she has 18 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian has 3 cameras. He received 9 more cameras. How many cameras does he have now? Reasoning: Ian has 3 + 9 = 12 cameras. So, he has 12 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian has 3 cameras. He received 9 more cameras. How many cameras does he have now? Reasoning: Ian has 3 + 9 = 13 cameras. So, he has 13 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River has 4 tickets. She won 7 more tickets. How many tickets does she have now? Reasoning: River has 4 + 7 = 11 tickets. So, she has 11 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River has 4 tickets. She won 7 more tickets. How many tickets does she have now? Reasoning: River has 4 + 7 = 12 tickets. So, she has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 3 tickets. She gained 9 more tickets. How many tickets does she have now? Reasoning: River has 3 + 9 = 12 tickets. So, she has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 3 tickets. She gained 9 more tickets. How many tickets does she have now? Reasoning: River has 3 + 9 = 16 tickets. So, she has 16 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Kelly has 5 pillows. She gathered 6 more pillows. How many pillows does she have now? Reasoning: Kelly has 5 + 6 = 11 pillows. So, she has 11 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Kelly has 5 pillows. She gathered 6 more pillows. How many pillows does she have now? Reasoning: Kelly has 5 + 6 = 13 pillows. So, she has 13 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 2 candles. She gained 9 more candles. How many candles does she have now? Reasoning: Kelly has 2 + 9 = 11 candles. So, she has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 2 candles. She gained 9 more candles. How many candles does she have now? Reasoning: Kelly has 2 + 9 = 12 candles. So, she has 12 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Kelly has 4 tickets. She gained 8 more tickets. How many tickets does she have now? Reasoning: Kelly has 4 + 8 = 12 tickets. So, she has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Kelly has 4 tickets. She gained 8 more tickets. How many tickets does she have now? Reasoning: Kelly has 4 + 8 = 13 tickets. So, she has 13 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Thomas has 4 pillows. He bought 8 more pillows. How many pillows does he have now? Reasoning: Thomas has 4 + 8 = 12 pillows. So, he has 12 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Thomas has 4 pillows. He bought 8 more pillows. How many pillows does he have now? Reasoning: Thomas has 4 + 8 = 16 pillows. So, he has 16 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas has 2 pillows. He bought 8 more pillows. How many pillows does he have now? Reasoning: Thomas has 2 + 8 = 10 pillows. So, he has 10 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas has 2 pillows. He bought 8 more pillows. How many pillows does he have now? Reasoning: Thomas has 2 + 8 = 13 pillows. So, he has 13 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River has 4 jackets. She gained 9 more jackets. How many jackets does she have now? Reasoning: River has 4 + 9 = 13 jackets. So, she has 13 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River has 4 jackets. She gained 9 more jackets. How many jackets does she have now? Reasoning: River has 4 + 9 = 19 jackets. So, she has 19 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 4 cameras. She won 6 more cameras. How many cameras does she have now? Reasoning: Kelly has 4 + 6 = 10 cameras. So, she has 10 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 4 cameras. She won 6 more cameras. How many cameras does she have now? Reasoning: Kelly has 4 + 6 = 11 cameras. So, she has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Ian has 5 candles. He won 6 more candles. How many candles does he have now? Reasoning: Ian has 5 + 6 = 11 candles. So, he has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Ian has 5 candles. He won 6 more candles. How many candles does he have now? Reasoning: Ian has 5 + 6 = 14 candles. So, he has 14 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice has 7 pillows. She gathered 9 more pillows. How many pillows does she have now? Reasoning: Alice has 7 + 9 = 16 pillows. So, she has 16 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice has 7 pillows. She gathered 9 more pillows. How many pillows does she have now? Reasoning: Alice has 7 + 9 = 18 pillows. So, she has 18 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Alice has 4 candles. She gathered 9 more candles. How many candles does she have now? Reasoning: Alice has 4 + 9 = 13 candles. So, she has 13 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Alice has 4 candles. She gathered 9 more candles. How many candles does she have now? Reasoning: Alice has 4 + 9 = 12 candles. So, she has 12 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice has 3 tickets. She gathered 8 more tickets. How many tickets does she have now? Reasoning: Alice has 3 + 8 = 11 tickets. So, she has 11 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice has 3 tickets. She gathered 8 more tickets. How many tickets does she have now? Reasoning: Alice has 3 + 8 = 17 tickets. So, she has 17 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River has 8 candles. She gained 9 more candles. How many candles does she have now? Reasoning: River has 8 + 9 = 17 candles. So, she has 17 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River has 8 candles. She gained 9 more candles. How many candles does she have now? Reasoning: River has 8 + 9 = 10 candles. So, she has 10 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 5 jackets. She bought 7 more jackets. How many jackets does she have now? Reasoning: River has 5 + 7 = 12 jackets. So, she has 12 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 5 jackets. She bought 7 more jackets. How many jackets does she have now? Reasoning: River has 5 + 7 = 19 jackets. So, she has 19 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Thomas has 5 cameras. He gathered 6 more cameras. How many cameras does he have now? Reasoning: Thomas has 5 + 6 = 11 cameras. So, he has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Thomas has 5 cameras. He gathered 6 more cameras. How many cameras does he have now? Reasoning: Thomas has 5 + 6 = 15 cameras. So, he has 15 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River has 5 jackets. She won 9 more jackets. How many jackets does she have now? Reasoning: River has 5 + 9 = 14 jackets. So, she has 14 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River has 5 jackets. She won 9 more jackets. How many jackets does she have now? Reasoning: River has 5 + 9 = 17 jackets. So, she has 17 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice has 4 jackets. She gained 7 more jackets. How many jackets does she have now? Reasoning: Alice has 4 + 7 = 11 jackets. So, she has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice has 4 jackets. She gained 7 more jackets. How many jackets does she have now? Reasoning: Alice has 4 + 7 = 16 jackets. So, she has 16 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River has 7 cameras. She received 8 more cameras. How many cameras does she have now? Reasoning: River has 7 + 8 = 15 cameras. So, she has 15 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River has 7 cameras. She received 8 more cameras. How many cameras does she have now? Reasoning: River has 7 + 8 = 16 cameras. So, she has 16 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 5 tickets. She received 6 more tickets. How many tickets does she have now? Reasoning: Kelly has 5 + 6 = 11 tickets. So, she has 11 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly has 5 tickets. She received 6 more tickets. How many tickets does she have now? Reasoning: Kelly has 5 + 6 = 14 tickets. So, she has 14 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly has 7 jackets. She bought 8 more jackets. How many jackets does she have now? Reasoning: Kelly has 7 + 8 = 15 jackets. So, she has 15 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly has 7 jackets. She bought 8 more jackets. How many jackets does she have now? Reasoning: Kelly has 7 + 8 = 13 jackets. So, she has 13 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Thomas has 8 tickets. He received 9 more tickets. How many tickets does he have now? Reasoning: Thomas has 8 + 9 = 17 tickets. So, he has 17 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Thomas has 8 tickets. He received 9 more tickets. How many tickets does he have now? Reasoning: Thomas has 8 + 9 = 14 tickets. So, he has 14 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River has 3 cameras. She won 8 more cameras. How many cameras does she have now? Reasoning: River has 3 + 8 = 11 cameras. So, she has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River has 3 cameras. She won 8 more cameras. How many cameras does she have now? Reasoning: River has 3 + 8 = 18 cameras. So, she has 18 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Kelly has 4 pillows. She gained 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 4 + 9 = 13 pillows. So, she has 13 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Kelly has 4 pillows. She gained 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 4 + 9 = 18 pillows. So, she has 18 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Ian has 3 jackets. He received 7 more jackets. How many jackets does he have now? Reasoning: Ian has 3 + 7 = 10 jackets. So, he has 10 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Ian has 3 jackets. He received 7 more jackets. How many jackets does he have now? Reasoning: Ian has 3 + 7 = 15 jackets. So, he has 15 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 3 candles. She won 8 more candles. How many candles does she have now? Reasoning: River has 3 + 8 = 11 candles. So, she has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 3 candles. She won 8 more candles. How many candles does she have now? Reasoning: River has 3 + 8 = 10 candles. So, she has 10 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River has 7 cameras. She received 9 more cameras. How many cameras does she have now? Reasoning: River has 7 + 9 = 16 cameras. So, she has 16 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River has 7 cameras. She received 9 more cameras. How many cameras does she have now? Reasoning: River has 7 + 9 = 19 cameras. So, she has 19 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River has 5 cameras. She bought 7 more cameras. How many cameras does she have now? Reasoning: River has 5 + 7 = 12 cameras. So, she has 12 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River has 5 cameras. She bought 7 more cameras. How many cameras does she have now? Reasoning: River has 5 + 7 = 15 cameras. So, she has 15 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River has 5 pillows. She won 6 more pillows. How many pillows does she have now? Reasoning: River has 5 + 6 = 11 pillows. So, she has 11 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River has 5 pillows. She won 6 more pillows. How many pillows does she have now? Reasoning: River has 5 + 6 = 19 pillows. So, she has 19 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Ian has 7 tickets. He won 9 more tickets. How many tickets does he have now? Reasoning: Ian has 7 + 9 = 16 tickets. So, he has 16 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Ian has 7 tickets. He won 9 more tickets. How many tickets does he have now? Reasoning: Ian has 7 + 9 = 12 tickets. So, he has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Kelly has 3 pillows. She gained 7 more pillows. How many pillows does she have now? Reasoning: Kelly has 3 + 7 = 10 pillows. So, she has 10 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Kelly has 3 pillows. She gained 7 more pillows. How many pillows does she have now? Reasoning: Kelly has 3 + 7 = 19 pillows. So, she has 19 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        }
+    ]
+}

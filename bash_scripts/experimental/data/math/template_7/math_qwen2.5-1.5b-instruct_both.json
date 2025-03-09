@@ -1,0 +1,162 @@
+{
+    "seq_labels": [
+        "[<|im_start|>]_occ_1",
+        "[system]_occ_1",
+        "[newline]_occ_1",
+        "token_pos_3",
+        "token_pos_4",
+        "token_pos_5",
+        "token_pos_6",
+        "[,]_occ_1",
+        "token_pos_8",
+        "token_pos_9",
+        "token_pos_10",
+        "token_pos_11",
+        "[.]_occ_1",
+        "token_pos_13",
+        "token_pos_14",
+        "token_pos_15",
+        "token_pos_16",
+        "token_pos_17",
+        "[.]_occ_2",
+        "[<|im_end|>]_occ_1",
+        "[newline]_occ_2",
+        "[<|im_start|>]_occ_2",
+        "[user]_occ_1",
+        "[newline]_occ_3",
+        "[does]_occ_1",
+        "token_pos_25",
+        "token_pos_26",
+        "token_pos_27",
+        "token_pos_28",
+        "token_pos_29",
+        "token_pos_30",
+        "token_pos_31",
+        "token_pos_32",
+        "token_pos_33",
+        "token_pos_34",
+        "token_pos_35",
+        "token_pos_36",
+        "[valid]_occ_1",
+        "token_pos_38",
+        "[invalid]_occ_1",
+        "[.]_occ_3",
+        "[problem]_occ_1",
+        "[:]_occ_1",
+        "[name]_occ_1",
+        "token_pos_44",
+        "token_pos_45",
+        "[space]_occ_1",
+        "[op1]_occ_1",
+        "[object]_occ_1",
+        "token_pos_49",
+        "token_pos_50",
+        "[verb]_occ_1",
+        "[space]_occ_2",
+        "[op2]_occ_1",
+        "token_pos_54",
+        "[.]_occ_4",
+        "token_pos_56",
+        "token_pos_57",
+        "[object]_occ_2",
+        "token_pos_59",
+        "[pronoun]_occ_1",
+        "token_pos_61",
+        "token_pos_62",
+        "token_pos_63",
+        "token_pos_64",
+        "token_pos_65",
+        "[:]_occ_2",
+        "token_pos_67",
+        "token_pos_68",
+        "token_pos_69",
+        "token_pos_70",
+        "token_pos_71",
+        "[:]_occ_3",
+        "[space]_occ_3",
+        "[op1-in-eq]_occ_1",
+        "[plus]_occ_1",
+        "[space]_occ_4",
+        "[op2-in-eq]_occ_1",
+        "[equals]_occ_1",
+        "[space_after_eq]_occ_1",
+        "[C-first]_occ_1",
+        "[C-second]_occ_1",
+        "[.]_occ_5",
+        "token_pos_83",
+        "[,]_occ_2",
+        "[name]_occ_2",
+        "token_pos_86",
+        "token_pos_87",
+        "token_pos_88",
+        "token_pos_89",
+        "[space]_occ_5",
+        "[A-first]_occ_1",
+        "[A-second]_occ_1",
+        "[object]_occ_3",
+        "[.]_occ_6",
+        "[<|im_end|>]_occ_2",
+        "[newline]_occ_4",
+        "[<|im_start|>]_occ_3",
+        "[assistant]_occ_1",
+        "[newline]_occ_5",
+        "answer",
+        "[:]_occ_4",
+        "the",
+        "above",
+        "reasoning",
+        "is"
+    ],
+    "prompts": [
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian begins with 6 tickets and then gained 8 more. How many tickets does he have now? Reasoning: Let's add them up: 6 + 8 = 19. Therefore, Ian has a total of 19 tickets.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian begins with 6 tickets and then gained 8 more. How many tickets does he have now? Reasoning: Let's add them up: 6 + 8 = 14. Therefore, Ian has a total of 14 tickets.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River begins with 3 jackets and then gathered 8 more. How many jackets does she have now? Reasoning: Let's add them up: 3 + 8 = 16. Therefore, River has a total of 16 jackets.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River begins with 3 jackets and then gathered 8 more. How many jackets does she have now? Reasoning: Let's add them up: 3 + 8 = 11. Therefore, River has a total of 11 jackets.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River begins with 2 pillows and then received 8 more. How many pillows does she have now? Reasoning: Let's add them up: 2 + 8 = 16. Therefore, River has a total of 16 pillows.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River begins with 2 pillows and then received 8 more. How many pillows does she have now? Reasoning: Let's add them up: 2 + 8 = 10. Therefore, River has a total of 10 pillows.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River begins with 3 tickets and then gained 9 more. How many tickets does she have now? Reasoning: Let's add them up: 3 + 9 = 16. Therefore, River has a total of 16 tickets.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River begins with 3 tickets and then gained 9 more. How many tickets does she have now? Reasoning: Let's add them up: 3 + 9 = 12. Therefore, River has a total of 12 tickets.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River begins with 5 jackets and then bought 7 more. How many jackets does she have now? Reasoning: Let's add them up: 5 + 7 = 19. Therefore, River has a total of 19 jackets.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River begins with 5 jackets and then bought 7 more. How many jackets does she have now? Reasoning: Let's add them up: 5 + 7 = 12. Therefore, River has a total of 12 jackets.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        }
+    ]
+}

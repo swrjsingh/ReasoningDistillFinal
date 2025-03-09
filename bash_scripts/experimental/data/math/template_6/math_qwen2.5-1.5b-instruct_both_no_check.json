@@ -1,0 +1,1108 @@
+{
+    "seq_labels": [
+        "[<|im_start|>]_occ_1",
+        "[system]_occ_1",
+        "[newline]_occ_1",
+        "token_pos_3",
+        "token_pos_4",
+        "token_pos_5",
+        "token_pos_6",
+        "[,]_occ_1",
+        "token_pos_8",
+        "token_pos_9",
+        "token_pos_10",
+        "token_pos_11",
+        "[.]_occ_1",
+        "token_pos_13",
+        "token_pos_14",
+        "token_pos_15",
+        "token_pos_16",
+        "token_pos_17",
+        "[.]_occ_2",
+        "[<|im_end|>]_occ_1",
+        "[newline]_occ_2",
+        "[<|im_start|>]_occ_2",
+        "[user]_occ_1",
+        "[newline]_occ_3",
+        "[does]_occ_1",
+        "token_pos_25",
+        "token_pos_26",
+        "token_pos_27",
+        "token_pos_28",
+        "token_pos_29",
+        "token_pos_30",
+        "token_pos_31",
+        "token_pos_32",
+        "token_pos_33",
+        "token_pos_34",
+        "token_pos_35",
+        "token_pos_36",
+        "[valid]_occ_1",
+        "token_pos_38",
+        "[invalid]_occ_1",
+        "[.]_occ_3",
+        "[problem]_occ_1",
+        "[:]_occ_1",
+        "[space]_occ_1",
+        "[op1]_occ_1",
+        "[object]_occ_1",
+        "token_pos_46",
+        "token_pos_47",
+        "[name]_occ_1",
+        "[.]_occ_4",
+        "[pronoun]_occ_1",
+        "[verb]_occ_1",
+        "[space]_occ_2",
+        "[op2]_occ_1",
+        "token_pos_54",
+        "token_pos_55",
+        "[.]_occ_5",
+        "token_pos_57",
+        "token_pos_58",
+        "token_pos_59",
+        "token_pos_60",
+        "token_pos_61",
+        "token_pos_62",
+        "token_pos_63",
+        "[:]_occ_2",
+        "token_pos_65",
+        "token_pos_66",
+        "[,]_occ_2",
+        "token_pos_68",
+        "token_pos_69",
+        "[space]_occ_3",
+        "[op1-in-eq]_occ_1",
+        "[plus]_occ_1",
+        "[space]_occ_4",
+        "[op2-in-eq]_occ_1",
+        "[equals]_occ_1",
+        "[space_after_eq]_occ_1",
+        "[C-first]_occ_1",
+        "[C-second]_occ_1",
+        "[.]_occ_6",
+        "token_pos_80",
+        "[,]_occ_3",
+        "[name]_occ_2",
+        "token_pos_83",
+        "[space]_occ_5",
+        "[A-first]_occ_1",
+        "[A-second]_occ_1",
+        "[object]_occ_2",
+        "token_pos_88",
+        "token_pos_89",
+        "[.]_occ_7",
+        "[<|im_end|>]_occ_2",
+        "[newline]_occ_4",
+        "[<|im_start|>]_occ_3",
+        "[assistant]_occ_1",
+        "[newline]_occ_5",
+        "answer",
+        "[:]_occ_3",
+        "the",
+        "above",
+        "reasoning",
+        "is"
+    ],
+    "prompts": [
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 candles belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 13. Thus, River has 13 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 candles belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, River has 14 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 jackets belong to Alice. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 12. Thus, Alice has 12 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 jackets belong to Alice. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Alice has 11 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 tickets belong to Ian. He won 8 additional ones. What’s the total? Reasoning: By addition, we get 4 + 8 = 19. Thus, Ian has 19 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 tickets belong to Ian. He won 8 additional ones. What’s the total? Reasoning: By addition, we get 4 + 8 = 12. Thus, Ian has 12 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 pillows belong to Alice. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 18. Thus, Alice has 18 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 pillows belong to Alice. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Alice has 12 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 6 candles belong to River. She bought 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 12. Thus, River has 12 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 6 candles belong to River. She bought 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, River has 14 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 2 tickets belong to Thomas. He received 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 16. Thus, Thomas has 16 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 2 tickets belong to Thomas. He received 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, Thomas has 10 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 7 candles belong to Kelly. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 13. Thus, Kelly has 13 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 7 candles belong to Kelly. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Kelly has 16 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 tickets belong to Ian. He gained 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 19. Thus, Ian has 19 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 tickets belong to Ian. He gained 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, Ian has 14 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 7 cameras belong to Thomas. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 14. Thus, Thomas has 14 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 7 cameras belong to Thomas. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Thomas has 16 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 cameras belong to Kelly. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 5 + 8 = 11. Thus, Kelly has 11 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 cameras belong to Kelly. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 5 + 8 = 13. Thus, Kelly has 13 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 2 pillows belong to Thomas. He gained 9 additional ones. What’s the total? Reasoning: By addition, we get 2 + 9 = 16. Thus, Thomas has 16 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 2 pillows belong to Thomas. He gained 9 additional ones. What’s the total? Reasoning: By addition, we get 2 + 9 = 11. Thus, Thomas has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 7 jackets belong to Thomas. He gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 10. Thus, Thomas has 10 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 7 jackets belong to Thomas. He gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Thomas has 16 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 tickets belong to River. She received 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 12. Thus, River has 12 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 tickets belong to River. She received 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 10. Thus, River has 10 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 jackets belong to Thomas. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 2 + 9 = 14. Thus, Thomas has 14 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 jackets belong to Thomas. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 2 + 9 = 11. Thus, Thomas has 11 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 pillows belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 13. Thus, Kelly has 13 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 pillows belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, Kelly has 14 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 pillows belong to Kelly. She gained 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 19. Thus, Kelly has 19 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 pillows belong to Kelly. She gained 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 12. Thus, Kelly has 12 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 5 cameras belong to River. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 19. Thus, River has 19 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 5 cameras belong to River. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, River has 14 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 4 pillows belong to River. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 11. Thus, River has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 4 pillows belong to River. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, River has 13 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 8 pillows belong to Alice. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 10. Thus, Alice has 10 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 8 pillows belong to Alice. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, Alice has 17 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 candles belong to Thomas. He bought 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 16. Thus, Thomas has 16 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 candles belong to Thomas. He bought 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Thomas has 11 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 jackets belong to Alice. She won 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 18. Thus, Alice has 18 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 jackets belong to Alice. She won 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Alice has 11 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 candles belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 16. Thus, Alice has 16 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 candles belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, Alice has 14 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 cameras belong to Alice. She won 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 16. Thus, Alice has 16 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 cameras belong to Alice. She won 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Alice has 11 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 jackets belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 16. Thus, River has 16 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 jackets belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, River has 11 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 candles belong to Kelly. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 15. Thus, Kelly has 15 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 candles belong to Kelly. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Kelly has 11 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 8 tickets belong to River. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 18. Thus, River has 18 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 8 tickets belong to River. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, River has 17 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 7 jackets belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 11. Thus, Alice has 11 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 7 jackets belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Alice has 16 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 6 cameras belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 6 + 9 = 14. Thus, River has 14 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 6 cameras belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 6 + 9 = 15. Thus, River has 15 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 5 jackets belong to Alice. She won 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 11. Thus, Alice has 11 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 5 jackets belong to Alice. She won 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 12. Thus, Alice has 12 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 6 cameras belong to Thomas. He received 7 additional ones. What’s the total? Reasoning: By addition, we get 6 + 7 = 10. Thus, Thomas has 10 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 6 cameras belong to Thomas. He received 7 additional ones. What’s the total? Reasoning: By addition, we get 6 + 7 = 13. Thus, Thomas has 13 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 3 pillows belong to Kelly. She bought 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 15. Thus, Kelly has 15 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 3 pillows belong to Kelly. She bought 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Kelly has 12 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 3 candles belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 18. Thus, Alice has 18 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 3 candles belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Alice has 12 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 7 pillows belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 10. Thus, River has 10 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 7 pillows belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 15. Thus, River has 15 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 7 tickets belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 10. Thus, River has 10 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 7 tickets belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 15. Thus, River has 15 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 cameras belong to Alice. She gathered 7 additional ones. What’s the total? Reasoning: By addition, we get 6 + 7 = 16. Thus, Alice has 16 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 cameras belong to Alice. She gathered 7 additional ones. What’s the total? Reasoning: By addition, we get 6 + 7 = 13. Thus, Alice has 13 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 tickets belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 13. Thus, River has 13 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 tickets belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, River has 10 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Ian. He received 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 18. Thus, Ian has 18 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Ian. He received 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Ian has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 jackets belong to Kelly. She gained 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 13. Thus, Kelly has 13 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 jackets belong to Kelly. She gained 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, Kelly has 10 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 3 cameras belong to Kelly. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 14. Thus, Kelly has 14 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 3 cameras belong to Kelly. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Kelly has 11 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Kelly. She gathered 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 14. Thus, Kelly has 14 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Kelly. She gathered 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Kelly has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 7 jackets belong to Thomas. He won 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 14. Thus, Thomas has 14 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 7 jackets belong to Thomas. He won 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Thomas has 16 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 jackets belong to Thomas. He gained 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 10. Thus, Thomas has 10 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 jackets belong to Thomas. He gained 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Thomas has 13 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 8 jackets belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 10. Thus, Kelly has 10 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 8 jackets belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, Kelly has 17 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 2 pillows belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 16. Thus, River has 16 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 2 pillows belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, River has 10 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 6 pillows belong to River. She bought 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 19. Thus, River has 19 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 6 pillows belong to River. She bought 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, River has 14 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 6 jackets belong to Ian. He gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 6 + 9 = 18. Thus, Ian has 18 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 6 jackets belong to Ian. He gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 6 + 9 = 15. Thus, Ian has 15 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Kelly. She bought 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 14. Thus, Kelly has 14 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Kelly. She bought 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Kelly has 13 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 5 candles belong to Ian. He bought 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 16. Thus, Ian has 16 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 5 candles belong to Ian. He bought 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Ian has 11 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 4 candles belong to Kelly. She received 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 17. Thus, Kelly has 17 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 4 candles belong to Kelly. She received 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Kelly has 11 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 pillows belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 17. Thus, Kelly has 17 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 pillows belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Kelly has 12 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 jackets belong to Ian. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 15. Thus, Ian has 15 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 jackets belong to Ian. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, Ian has 14 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 7 tickets belong to Kelly. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 12. Thus, Kelly has 12 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 7 tickets belong to Kelly. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Kelly has 16 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 6 cameras belong to River. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 6 + 9 = 17. Thus, River has 17 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 6 cameras belong to River. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 6 + 9 = 15. Thus, River has 15 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 cameras belong to Ian. He won 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 17. Thus, Ian has 17 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 cameras belong to Ian. He won 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, Ian has 14 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 4 candles belong to Ian. He gathered 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 15. Thus, Ian has 15 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 4 candles belong to Ian. He gathered 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 10. Thus, Ian has 10 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 candles belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 19. Thus, Kelly has 19 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 candles belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Kelly has 12 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 tickets belong to Ian. He won 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 17. Thus, Ian has 17 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 tickets belong to Ian. He won 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, Ian has 10 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 3 tickets belong to Kelly. She gathered 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 14. Thus, Kelly has 14 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 3 tickets belong to Kelly. She gathered 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 10. Thus, Kelly has 10 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 6 pillows belong to Thomas. He gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 15. Thus, Thomas has 15 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 6 pillows belong to Thomas. He gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, Thomas has 14 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 6 jackets belong to Alice. She received 7 additional ones. What’s the total? Reasoning: By addition, we get 6 + 7 = 11. Thus, Alice has 11 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 6 jackets belong to Alice. She received 7 additional ones. What’s the total? Reasoning: By addition, we get 6 + 7 = 13. Thus, Alice has 13 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 5 tickets belong to Ian. He bought 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 10. Thus, Ian has 10 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 5 tickets belong to Ian. He bought 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, Ian has 14 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 4 cameras belong to Kelly. She won 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 12. Thus, Kelly has 12 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 4 cameras belong to Kelly. She won 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Kelly has 11 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 jackets belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 5 + 8 = 19. Thus, River has 19 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 jackets belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 5 + 8 = 13. Thus, River has 13 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 cameras belong to Alice. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 15. Thus, Alice has 15 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 cameras belong to Alice. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Alice has 13 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 tickets belong to Thomas. He bought 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 13. Thus, Thomas has 13 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 tickets belong to Thomas. He bought 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 10. Thus, Thomas has 10 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 jackets belong to River. She gained 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 14. Thus, River has 14 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 jackets belong to River. She gained 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 10. Thus, River has 10 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 tickets belong to Ian. He received 8 additional ones. What’s the total? Reasoning: By addition, we get 5 + 8 = 15. Thus, Ian has 15 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 tickets belong to Ian. He received 8 additional ones. What’s the total? Reasoning: By addition, we get 5 + 8 = 13. Thus, Ian has 13 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 tickets belong to Kelly. She gained 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 18. Thus, Kelly has 18 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 tickets belong to Kelly. She gained 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Kelly has 11 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 cameras belong to Ian. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 13. Thus, Ian has 13 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 cameras belong to Ian. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Ian has 12 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 tickets belong to River. She won 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 12. Thus, River has 12 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 tickets belong to River. She won 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, River has 11 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 tickets belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 16. Thus, River has 16 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 tickets belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, River has 12 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 pillows belong to Kelly. She gathered 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 13. Thus, Kelly has 13 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 pillows belong to Kelly. She gathered 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Kelly has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 candles belong to Kelly. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 2 + 9 = 12. Thus, Kelly has 12 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 candles belong to Kelly. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 2 + 9 = 11. Thus, Kelly has 11 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 tickets belong to Kelly. She gained 8 additional ones. What’s the total? Reasoning: By addition, we get 4 + 8 = 13. Thus, Kelly has 13 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 tickets belong to Kelly. She gained 8 additional ones. What’s the total? Reasoning: By addition, we get 4 + 8 = 12. Thus, Kelly has 12 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Thomas. He bought 8 additional ones. What’s the total? Reasoning: By addition, we get 4 + 8 = 16. Thus, Thomas has 16 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Thomas. He bought 8 additional ones. What’s the total? Reasoning: By addition, we get 4 + 8 = 12. Thus, Thomas has 12 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 2 pillows belong to Thomas. He bought 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 13. Thus, Thomas has 13 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 2 pillows belong to Thomas. He bought 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, Thomas has 10 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 jackets belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 19. Thus, River has 19 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 jackets belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, River has 13 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 cameras belong to Kelly. She won 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 11. Thus, Kelly has 11 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 cameras belong to Kelly. She won 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 10. Thus, Kelly has 10 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 candles belong to Ian. He won 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 14. Thus, Ian has 14 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 candles belong to Ian. He won 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Ian has 11 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 7 pillows belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 18. Thus, Alice has 18 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 7 pillows belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Alice has 16 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 4 candles belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 12. Thus, Alice has 12 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 4 candles belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Alice has 13 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 tickets belong to Alice. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 17. Thus, Alice has 17 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 tickets belong to Alice. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Alice has 11 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 8 candles belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 10. Thus, River has 10 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 8 candles belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, River has 17 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 5 jackets belong to River. She bought 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 19. Thus, River has 19 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 5 jackets belong to River. She bought 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 12. Thus, River has 12 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 5 cameras belong to Thomas. He gathered 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 15. Thus, Thomas has 15 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 5 cameras belong to Thomas. He gathered 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Thomas has 11 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 jackets belong to River. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 17. Thus, River has 17 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 jackets belong to River. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, River has 14 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 jackets belong to Alice. She gained 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 16. Thus, Alice has 16 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 jackets belong to Alice. She gained 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Alice has 11 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 7 cameras belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 16. Thus, River has 16 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 7 cameras belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 15. Thus, River has 15 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 tickets belong to Kelly. She received 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 14. Thus, Kelly has 14 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 tickets belong to Kelly. She received 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Kelly has 11 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 7 jackets belong to Kelly. She bought 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 13. Thus, Kelly has 13 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 7 jackets belong to Kelly. She bought 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 15. Thus, Kelly has 15 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 8 tickets belong to Thomas. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 14. Thus, Thomas has 14 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 8 tickets belong to Thomas. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, Thomas has 17 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 cameras belong to River. She won 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 18. Thus, River has 18 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 cameras belong to River. She won 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, River has 11 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 pillows belong to Kelly. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 18. Thus, Kelly has 18 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 pillows belong to Kelly. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Kelly has 13 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 jackets belong to Ian. He received 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 15. Thus, Ian has 15 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 jackets belong to Ian. He received 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 10. Thus, Ian has 10 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 candles belong to River. She won 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 10. Thus, River has 10 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 candles belong to River. She won 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, River has 11 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 7 cameras belong to River. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 19. Thus, River has 19 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 7 cameras belong to River. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, River has 16 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 cameras belong to River. She bought 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 15. Thus, River has 15 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 cameras belong to River. She bought 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 12. Thus, River has 12 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 pillows belong to River. She won 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 19. Thus, River has 19 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 pillows belong to River. She won 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, River has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " wrong"
+            ],
+            "wrong_answers": [
+                " right"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 7 tickets belong to Ian. He won 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 12. Thus, Ian has 12 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 7 tickets belong to Ian. He won 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Ian has 16 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 pillows belong to Kelly. She gained 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 19. Thus, Kelly has 19 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 pillows belong to Kelly. She gained 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 10. Thus, Kelly has 10 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        }
+    ]
+}

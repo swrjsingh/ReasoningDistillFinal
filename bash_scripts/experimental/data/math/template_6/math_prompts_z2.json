@@ -1,0 +1,2804 @@
+{
+    "prompts": [
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 candles belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, River has 14 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 candles belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, River has 13 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 jackets belong to Alice. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Alice has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 jackets belong to Alice. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Alice has 12 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 tickets belong to Ian. He won 8 additional ones. What’s the total? Reasoning: By addition, we get 4 + 8 = 12. Thus, Ian has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 tickets belong to Ian. He won 8 additional ones. What’s the total? Reasoning: By addition, we get 4 + 8 = 12. Thus, Ian has 19 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 pillows belong to Alice. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Alice has 12 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 pillows belong to Alice. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Alice has 18 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 6 candles belong to River. She bought 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, River has 14 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 6 candles belong to River. She bought 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, River has 12 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 2 tickets belong to Thomas. He received 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, Thomas has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 2 tickets belong to Thomas. He received 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, Thomas has 16 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 7 candles belong to Kelly. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Kelly has 16 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 7 candles belong to Kelly. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Kelly has 13 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 tickets belong to Ian. He gained 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, Ian has 14 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 tickets belong to Ian. He gained 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, Ian has 19 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 7 cameras belong to Thomas. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Thomas has 16 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 7 cameras belong to Thomas. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Thomas has 14 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 cameras belong to Kelly. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 5 + 8 = 13. Thus, Kelly has 13 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 cameras belong to Kelly. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 5 + 8 = 13. Thus, Kelly has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 2 pillows belong to Thomas. He gained 9 additional ones. What’s the total? Reasoning: By addition, we get 2 + 9 = 11. Thus, Thomas has 11 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 2 pillows belong to Thomas. He gained 9 additional ones. What’s the total? Reasoning: By addition, we get 2 + 9 = 11. Thus, Thomas has 16 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 7 jackets belong to Thomas. He gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Thomas has 16 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 7 jackets belong to Thomas. He gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Thomas has 10 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 tickets belong to River. She received 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 10. Thus, River has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 tickets belong to River. She received 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 10. Thus, River has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 jackets belong to Thomas. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 2 + 9 = 11. Thus, Thomas has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 jackets belong to Thomas. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 2 + 9 = 11. Thus, Thomas has 14 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 pillows belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, Kelly has 14 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 pillows belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, Kelly has 13 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 pillows belong to Kelly. She gained 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 12. Thus, Kelly has 12 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 pillows belong to Kelly. She gained 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 12. Thus, Kelly has 19 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 5 cameras belong to River. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, River has 14 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 5 cameras belong to River. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, River has 19 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 4 pillows belong to River. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, River has 13 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 4 pillows belong to River. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, River has 11 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 8 pillows belong to Alice. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, Alice has 17 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 8 pillows belong to Alice. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, Alice has 10 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 candles belong to Thomas. He bought 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Thomas has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 candles belong to Thomas. He bought 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Thomas has 16 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 jackets belong to Alice. She won 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Alice has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 jackets belong to Alice. She won 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Alice has 18 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 candles belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, Alice has 14 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 candles belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, Alice has 16 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 cameras belong to Alice. She won 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Alice has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 cameras belong to Alice. She won 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Alice has 16 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 jackets belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, River has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 jackets belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, River has 16 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 candles belong to Kelly. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Kelly has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 candles belong to Kelly. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Kelly has 15 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 8 tickets belong to River. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, River has 17 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 8 tickets belong to River. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, River has 18 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 7 jackets belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Alice has 16 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 7 jackets belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Alice has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 6 cameras belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 6 + 9 = 15. Thus, River has 15 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 6 cameras belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 6 + 9 = 15. Thus, River has 14 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 5 jackets belong to Alice. She won 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 12. Thus, Alice has 12 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 5 jackets belong to Alice. She won 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 12. Thus, Alice has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 6 cameras belong to Thomas. He received 7 additional ones. What’s the total? Reasoning: By addition, we get 6 + 7 = 13. Thus, Thomas has 13 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 6 cameras belong to Thomas. He received 7 additional ones. What’s the total? Reasoning: By addition, we get 6 + 7 = 13. Thus, Thomas has 10 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 3 pillows belong to Kelly. She bought 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Kelly has 12 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 3 pillows belong to Kelly. She bought 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Kelly has 15 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 3 candles belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Alice has 12 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 3 candles belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Alice has 18 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 7 pillows belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 15. Thus, River has 15 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 7 pillows belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 15. Thus, River has 10 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 7 tickets belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 15. Thus, River has 15 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 7 tickets belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 15. Thus, River has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 cameras belong to Alice. She gathered 7 additional ones. What’s the total? Reasoning: By addition, we get 6 + 7 = 13. Thus, Alice has 13 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 cameras belong to Alice. She gathered 7 additional ones. What’s the total? Reasoning: By addition, we get 6 + 7 = 13. Thus, Alice has 16 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 tickets belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, River has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 tickets belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, River has 13 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Ian. He received 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Ian has 11 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Ian. He received 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Ian has 18 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 jackets belong to Kelly. She gained 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, Kelly has 10 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 jackets belong to Kelly. She gained 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, Kelly has 13 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 3 cameras belong to Kelly. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Kelly has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 3 cameras belong to Kelly. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Kelly has 14 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Kelly. She gathered 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Kelly has 11 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Kelly. She gathered 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Kelly has 14 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 7 jackets belong to Thomas. He won 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Thomas has 16 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 7 jackets belong to Thomas. He won 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Thomas has 14 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 jackets belong to Thomas. He gained 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Thomas has 13 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 jackets belong to Thomas. He gained 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Thomas has 10 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 8 jackets belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, Kelly has 17 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 8 jackets belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, Kelly has 10 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 2 pillows belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, River has 10 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 2 pillows belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, River has 16 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 6 pillows belong to River. She bought 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, River has 14 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 6 pillows belong to River. She bought 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, River has 19 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 6 jackets belong to Ian. He gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 6 + 9 = 15. Thus, Ian has 15 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 6 jackets belong to Ian. He gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 6 + 9 = 15. Thus, Ian has 18 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Kelly. She bought 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Kelly has 13 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Kelly. She bought 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Kelly has 14 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 5 candles belong to Ian. He bought 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Ian has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 5 candles belong to Ian. He bought 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Ian has 16 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 4 candles belong to Kelly. She received 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Kelly has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 4 candles belong to Kelly. She received 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Kelly has 17 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 pillows belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Kelly has 12 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 pillows belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Kelly has 17 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 jackets belong to Ian. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, Ian has 14 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 jackets belong to Ian. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, Ian has 15 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 7 tickets belong to Kelly. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Kelly has 16 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 7 tickets belong to Kelly. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Kelly has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 6 cameras belong to River. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 6 + 9 = 15. Thus, River has 15 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 6 cameras belong to River. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 6 + 9 = 15. Thus, River has 17 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 cameras belong to Ian. He won 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, Ian has 14 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 6 cameras belong to Ian. He won 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, Ian has 17 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 4 candles belong to Ian. He gathered 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 10. Thus, Ian has 10 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 4 candles belong to Ian. He gathered 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 10. Thus, Ian has 15 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 candles belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Kelly has 12 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 candles belong to Kelly. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Kelly has 19 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 tickets belong to Ian. He won 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, Ian has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 tickets belong to Ian. He won 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, Ian has 17 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 3 tickets belong to Kelly. She gathered 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 10. Thus, Kelly has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 3 tickets belong to Kelly. She gathered 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 10. Thus, Kelly has 14 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 6 pillows belong to Thomas. He gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, Thomas has 14 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 6 pillows belong to Thomas. He gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 6 + 8 = 14. Thus, Thomas has 15 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 6 jackets belong to Alice. She received 7 additional ones. What’s the total? Reasoning: By addition, we get 6 + 7 = 13. Thus, Alice has 13 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 6 jackets belong to Alice. She received 7 additional ones. What’s the total? Reasoning: By addition, we get 6 + 7 = 13. Thus, Alice has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 5 tickets belong to Ian. He bought 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, Ian has 14 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 5 tickets belong to Ian. He bought 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, Ian has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 4 cameras belong to Kelly. She won 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Kelly has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 4 cameras belong to Kelly. She won 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Kelly has 12 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 jackets belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 5 + 8 = 13. Thus, River has 13 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 jackets belong to River. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 5 + 8 = 13. Thus, River has 19 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 cameras belong to Alice. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Alice has 13 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 cameras belong to Alice. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Alice has 15 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 tickets belong to Thomas. He bought 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 10. Thus, Thomas has 10 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 tickets belong to Thomas. He bought 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 10. Thus, Thomas has 13 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 jackets belong to River. She gained 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 10. Thus, River has 10 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 jackets belong to River. She gained 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 10. Thus, River has 14 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 tickets belong to Ian. He received 8 additional ones. What’s the total? Reasoning: By addition, we get 5 + 8 = 13. Thus, Ian has 13 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 tickets belong to Ian. He received 8 additional ones. What’s the total? Reasoning: By addition, we get 5 + 8 = 13. Thus, Ian has 15 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 tickets belong to Kelly. She gained 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Kelly has 11 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 tickets belong to Kelly. She gained 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Kelly has 18 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 cameras belong to Ian. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Ian has 12 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 cameras belong to Ian. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, Ian has 13 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 tickets belong to River. She won 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, River has 11 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 tickets belong to River. She won 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, River has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 tickets belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, River has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 tickets belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 3 + 9 = 12. Thus, River has 16 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 pillows belong to Kelly. She gathered 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Kelly has 11 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 pillows belong to Kelly. She gathered 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Kelly has 13 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 candles belong to Kelly. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 2 + 9 = 11. Thus, Kelly has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 2 candles belong to Kelly. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 2 + 9 = 11. Thus, Kelly has 12 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 tickets belong to Kelly. She gained 8 additional ones. What’s the total? Reasoning: By addition, we get 4 + 8 = 12. Thus, Kelly has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 tickets belong to Kelly. She gained 8 additional ones. What’s the total? Reasoning: By addition, we get 4 + 8 = 12. Thus, Kelly has 13 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Thomas. He bought 8 additional ones. What’s the total? Reasoning: By addition, we get 4 + 8 = 12. Thus, Thomas has 12 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 pillows belong to Thomas. He bought 8 additional ones. What’s the total? Reasoning: By addition, we get 4 + 8 = 12. Thus, Thomas has 16 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 2 pillows belong to Thomas. He bought 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, Thomas has 10 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 2 pillows belong to Thomas. He bought 8 additional ones. What’s the total? Reasoning: By addition, we get 2 + 8 = 10. Thus, Thomas has 13 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 jackets belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, River has 13 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 4 jackets belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, River has 19 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 cameras belong to Kelly. She won 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 10. Thus, Kelly has 10 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 cameras belong to Kelly. She won 6 additional ones. What’s the total? Reasoning: By addition, we get 4 + 6 = 10. Thus, Kelly has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 candles belong to Ian. He won 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Ian has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 5 candles belong to Ian. He won 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Ian has 14 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 7 pillows belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Alice has 16 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 7 pillows belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Alice has 18 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 4 candles belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Alice has 13 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 4 candles belong to Alice. She gathered 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Alice has 12 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 tickets belong to Alice. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Alice has 11 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 tickets belong to Alice. She gathered 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, Alice has 17 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 8 candles belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, River has 17 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 8 candles belong to River. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, River has 10 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 5 jackets belong to River. She bought 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 12. Thus, River has 12 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 5 jackets belong to River. She bought 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 12. Thus, River has 19 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 5 cameras belong to Thomas. He gathered 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Thomas has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 5 cameras belong to Thomas. He gathered 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Thomas has 15 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 jackets belong to River. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, River has 14 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 5 jackets belong to River. She won 9 additional ones. What’s the total? Reasoning: By addition, we get 5 + 9 = 14. Thus, River has 17 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 jackets belong to Alice. She gained 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Alice has 11 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 4 jackets belong to Alice. She gained 7 additional ones. What’s the total? Reasoning: By addition, we get 4 + 7 = 11. Thus, Alice has 16 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 7 cameras belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 15. Thus, River has 15 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: 7 cameras belong to River. She received 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 15. Thus, River has 16 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 tickets belong to Kelly. She received 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Kelly has 11 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 tickets belong to Kelly. She received 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, Kelly has 14 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 7 jackets belong to Kelly. She bought 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 15. Thus, Kelly has 15 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 7 jackets belong to Kelly. She bought 8 additional ones. What’s the total? Reasoning: By addition, we get 7 + 8 = 15. Thus, Kelly has 13 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 8 tickets belong to Thomas. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, Thomas has 17 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 8 tickets belong to Thomas. He received 9 additional ones. What’s the total? Reasoning: By addition, we get 8 + 9 = 17. Thus, Thomas has 14 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 cameras belong to River. She won 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, River has 11 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 cameras belong to River. She won 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, River has 18 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 pillows belong to Kelly. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Kelly has 13 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 4 pillows belong to Kelly. She gained 9 additional ones. What’s the total? Reasoning: By addition, we get 4 + 9 = 13. Thus, Kelly has 18 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 jackets belong to Ian. He received 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 10. Thus, Ian has 10 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: 3 jackets belong to Ian. He received 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 10. Thus, Ian has 15 jackets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 candles belong to River. She won 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, River has 11 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: 3 candles belong to River. She won 8 additional ones. What’s the total? Reasoning: By addition, we get 3 + 8 = 11. Thus, River has 10 candles in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 7 cameras belong to River. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, River has 16 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 7 cameras belong to River. She received 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, River has 19 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 cameras belong to River. She bought 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 12. Thus, River has 12 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 cameras belong to River. She bought 7 additional ones. What’s the total? Reasoning: By addition, we get 5 + 7 = 12. Thus, River has 15 cameras in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 pillows belong to River. She won 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, River has 11 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: 5 pillows belong to River. She won 6 additional ones. What’s the total? Reasoning: By addition, we get 5 + 6 = 11. Thus, River has 19 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 7 tickets belong to Ian. He won 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Ian has 16 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: 7 tickets belong to Ian. He won 9 additional ones. What’s the total? Reasoning: By addition, we get 7 + 9 = 16. Thus, Ian has 12 tickets in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 pillows belong to Kelly. She gained 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 10. Thus, Kelly has 10 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: 3 pillows belong to Kelly. She gained 7 additional ones. What’s the total? Reasoning: By addition, we get 3 + 7 = 10. Thus, Kelly has 19 pillows in total."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        }
+    ]
+}

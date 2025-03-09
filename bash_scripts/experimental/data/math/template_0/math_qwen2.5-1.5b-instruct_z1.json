@@ -1,0 +1,328 @@
+{
+    "seq_labels": [
+        "[<|im_start|>]_occ_1",
+        "[system]_occ_1",
+        "[newline]_occ_1",
+        "token_pos_3",
+        "token_pos_4",
+        "token_pos_5",
+        "token_pos_6",
+        "[,]_occ_1",
+        "token_pos_8",
+        "token_pos_9",
+        "token_pos_10",
+        "token_pos_11",
+        "[.]_occ_1",
+        "token_pos_13",
+        "token_pos_14",
+        "token_pos_15",
+        "token_pos_16",
+        "token_pos_17",
+        "[.]_occ_2",
+        "[<|im_end|>]_occ_1",
+        "[newline]_occ_2",
+        "[<|im_start|>]_occ_2",
+        "[user]_occ_1",
+        "[newline]_occ_3",
+        "[does]_occ_1",
+        "token_pos_25",
+        "token_pos_26",
+        "token_pos_27",
+        "token_pos_28",
+        "token_pos_29",
+        "token_pos_30",
+        "token_pos_31",
+        "token_pos_32",
+        "token_pos_33",
+        "token_pos_34",
+        "token_pos_35",
+        "token_pos_36",
+        "[valid]_occ_1",
+        "token_pos_38",
+        "[invalid]_occ_1",
+        "[.]_occ_3",
+        "[problem]_occ_1",
+        "[:]_occ_1",
+        "[name]_occ_1",
+        "token_pos_44",
+        "[space]_occ_1",
+        "[op1]_occ_1",
+        "[object]_occ_1",
+        "[.]_occ_4",
+        "[pronoun]_occ_1",
+        "[verb]_occ_1",
+        "[space]_occ_2",
+        "[op2]_occ_1",
+        "token_pos_53",
+        "[object]_occ_2",
+        "[.]_occ_5",
+        "token_pos_56",
+        "token_pos_57",
+        "[object]_occ_3",
+        "token_pos_59",
+        "[pronoun]_occ_2",
+        "token_pos_61",
+        "token_pos_62",
+        "token_pos_63",
+        "token_pos_64",
+        "token_pos_65",
+        "[:]_occ_2",
+        "[name]_occ_2",
+        "token_pos_68",
+        "[space]_occ_3",
+        "[op1-in-eq]_occ_1",
+        "[plus]_occ_1",
+        "[space]_occ_4",
+        "[op2-in-eq]_occ_1",
+        "[equals]_occ_1",
+        "[space_after_eq]_occ_1",
+        "[C-first]_occ_1",
+        "[C-second]_occ_1",
+        "[object]_occ_4",
+        "[.]_occ_6",
+        "token_pos_80",
+        "[,]_occ_2",
+        "[pronoun]_occ_3",
+        "token_pos_83",
+        "[space]_occ_5",
+        "[A-first]_occ_1",
+        "[A-second]_occ_1",
+        "[object]_occ_5",
+        "token_pos_88",
+        "token_pos_89",
+        "[.]_occ_7",
+        "[<|im_end|>]_occ_2",
+        "[newline]_occ_4",
+        "[<|im_start|>]_occ_3",
+        "[assistant]_occ_1",
+        "[newline]_occ_5",
+        "answer",
+        "[:]_occ_3",
+        "the",
+        "above",
+        "reasoning",
+        "is"
+    ],
+    "prompts": [
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Thomas has 2 pillows. He gained 9 more pillows. How many pillows does he have now? Reasoning: Thomas has 2 + 9 = 16 pillows. So, he has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Thomas has 2 pillows. He gained 9 more pillows. How many pillows does he have now? Reasoning: Thomas has 2 + 9 = 11 pillows. So, he has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River has 6 cameras. She gained 9 more cameras. How many cameras does she have now? Reasoning: River has 6 + 9 = 14 cameras. So, she has 15 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River has 6 cameras. She gained 9 more cameras. How many cameras does she have now? Reasoning: River has 6 + 9 = 15 cameras. So, she has 15 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Thomas has 6 cameras. He received 7 more cameras. How many cameras does he have now? Reasoning: Thomas has 6 + 7 = 10 cameras. So, he has 13 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Thomas has 6 cameras. He received 7 more cameras. How many cameras does he have now? Reasoning: Thomas has 6 + 7 = 13 cameras. So, he has 13 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 3 pillows. She bought 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 3 + 9 = 15 pillows. So, she has 12 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 3 pillows. She bought 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 3 + 9 = 12 pillows. So, she has 12 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River has 7 tickets. She received 8 more tickets. How many tickets does she have now? Reasoning: River has 7 + 8 = 10 tickets. So, she has 15 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River has 7 tickets. She received 8 more tickets. How many tickets does she have now? Reasoning: River has 7 + 8 = 15 tickets. So, she has 15 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Ian has 4 pillows. He received 7 more pillows. How many pillows does he have now? Reasoning: Ian has 4 + 7 = 18 pillows. So, he has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Ian has 4 pillows. He received 7 more pillows. How many pillows does he have now? Reasoning: Ian has 4 + 7 = 11 pillows. So, he has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 4 pillows. She gathered 7 more pillows. How many pillows does she have now? Reasoning: Kelly has 4 + 7 = 14 pillows. So, she has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 4 pillows. She gathered 7 more pillows. How many pillows does she have now? Reasoning: Kelly has 4 + 7 = 11 pillows. So, she has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 6 pillows. She bought 8 more pillows. How many pillows does she have now? Reasoning: River has 6 + 8 = 19 pillows. So, she has 14 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River has 6 pillows. She bought 8 more pillows. How many pillows does she have now? Reasoning: River has 6 + 8 = 14 pillows. So, she has 14 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 4 pillows. She bought 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 4 + 9 = 14 pillows. So, she has 13 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 4 pillows. She bought 9 more pillows. How many pillows does she have now? Reasoning: Kelly has 4 + 9 = 13 pillows. So, she has 13 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian has 5 candles. He bought 6 more candles. How many candles does he have now? Reasoning: Ian has 5 + 6 = 16 candles. So, he has 11 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian has 5 candles. He bought 6 more candles. How many candles does he have now? Reasoning: Ian has 5 + 6 = 11 candles. So, he has 11 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly has 4 candles. She received 7 more candles. How many candles does she have now? Reasoning: Kelly has 4 + 7 = 17 candles. So, she has 11 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly has 4 candles. She received 7 more candles. How many candles does she have now? Reasoning: Kelly has 4 + 7 = 11 candles. So, she has 11 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 7 tickets. She gained 9 more tickets. How many tickets does she have now? Reasoning: Kelly has 7 + 9 = 12 tickets. So, she has 16 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 7 tickets. She gained 9 more tickets. How many tickets does she have now? Reasoning: Kelly has 7 + 9 = 16 tickets. So, she has 16 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian has 4 candles. He gathered 6 more candles. How many candles does he have now? Reasoning: Ian has 4 + 6 = 15 candles. So, he has 10 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian has 4 candles. He gathered 6 more candles. How many candles does he have now? Reasoning: Ian has 4 + 6 = 10 candles. So, he has 10 candles in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice has 6 jackets. She received 7 more jackets. How many jackets does she have now? Reasoning: Alice has 6 + 7 = 11 jackets. So, she has 13 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice has 6 jackets. She received 7 more jackets. How many jackets does she have now? Reasoning: Alice has 6 + 7 = 13 jackets. So, she has 13 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian has 5 tickets. He bought 9 more tickets. How many tickets does he have now? Reasoning: Ian has 5 + 9 = 10 tickets. So, he has 14 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian has 5 tickets. He bought 9 more tickets. How many tickets does he have now? Reasoning: Ian has 5 + 9 = 14 tickets. So, he has 14 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River has 4 tickets. She won 7 more tickets. How many tickets does she have now? Reasoning: River has 4 + 7 = 12 tickets. So, she has 11 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River has 4 tickets. She won 7 more tickets. How many tickets does she have now? Reasoning: River has 4 + 7 = 11 tickets. So, she has 11 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Kelly has 5 pillows. She gathered 6 more pillows. How many pillows does she have now? Reasoning: Kelly has 5 + 6 = 13 pillows. So, she has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Kelly has 5 pillows. She gathered 6 more pillows. How many pillows does she have now? Reasoning: Kelly has 5 + 6 = 11 pillows. So, she has 11 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Thomas has 4 pillows. He bought 8 more pillows. How many pillows does he have now? Reasoning: Thomas has 4 + 8 = 16 pillows. So, he has 12 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Thomas has 4 pillows. He bought 8 more pillows. How many pillows does he have now? Reasoning: Thomas has 4 + 8 = 12 pillows. So, he has 12 pillows in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 4 cameras. She won 6 more cameras. How many cameras does she have now? Reasoning: Kelly has 4 + 6 = 11 cameras. So, she has 10 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly has 4 cameras. She won 6 more cameras. How many cameras does she have now? Reasoning: Kelly has 4 + 6 = 10 cameras. So, she has 10 cameras in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice has 4 jackets. She gained 7 more jackets. How many jackets does she have now? Reasoning: Alice has 4 + 7 = 16 jackets. So, she has 11 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice has 4 jackets. She gained 7 more jackets. How many jackets does she have now? Reasoning: Alice has 4 + 7 = 11 jackets. So, she has 11 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly has 7 jackets. She bought 8 more jackets. How many jackets does she have now? Reasoning: Kelly has 7 + 8 = 13 jackets. So, she has 15 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly has 7 jackets. She bought 8 more jackets. How many jackets does she have now? Reasoning: Kelly has 7 + 8 = 15 jackets. So, she has 15 jackets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " incorrect"
+            ],
+            "wrong_answers": [
+                " correct"
+            ]
+        },
+        {
+            "clean": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Ian has 7 tickets. He won 9 more tickets. How many tickets does he have now? Reasoning: Ian has 7 + 9 = 12 tickets. So, he has 16 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "corrupt": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nDoes the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Ian has 7 tickets. He won 9 more tickets. How many tickets does he have now? Reasoning: Ian has 7 + 9 = 16 tickets. So, he has 16 tickets in total.<|im_end|>\n<|im_start|>assistant\nAnswer: The above reasoning is",
+            "answers": [
+                " invalid"
+            ],
+            "wrong_answers": [
+                " valid"
+            ]
+        }
+    ]
+}

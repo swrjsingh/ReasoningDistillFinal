@@ -1,0 +1,251 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 151643,
+      "content": "<｜end▁of▁sentence｜>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 151644,
+      "content": "<｜User｜>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": false
+    },
+    {
+      "id": 151645,
+      "content": "<｜Assistant｜>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": false
+    },
+    {
+      "id": 151646,
+      "content": "<｜begin▁of▁sentence｜>",
+      "normalized": false,
+      "lstrip": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    {
+      "id": 151647,
+      "content": "<|EOT|>",
+      "normalized": false,
+      "lstrip": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    {
+      "id": 151648,
+      "content": "<think>",
+      "normalized": false,
+      "lstrip": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    {
+      "id": 151649,
+      "content": "</think>",
+      "normalized": false,
+      "lstrip": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    {
+      "id": 151650,
+      "content": "<|quad_start|>",
+      "normalized": false,
+      "lstrip": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    {
+      "id": 151651,
+      "content": "<|quad_end|>",
+      "normalized": false,
+      "lstrip": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    {
+      "id": 151652,
+      "content": "<|vision_start|>",
+      "normalized": false,
+      "lstrip": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    {
+      "id": 151653,
+      "content": "<|vision_end|>",
+      "normalized": false,
+      "lstrip": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    {
+      "id": 151654,
+      "content": "<|vision_pad|>",
+      "normalized": false,
+      "lstrip": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    {
+      "id": 151655,
+      "content": "<|image_pad|>",
+      "normalized": false,
+      "lstrip": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    {
+      "id": 151656,
+      "content": "<|video_pad|>",
+      "normalized": false,
+      "lstrip": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    {
+      "id": 151657,
+      "content": "<tool_call>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    {
+      "id": 151658,
+      "content": "</tool_call>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    {
+      "id": 151659,
+      "content": "<|fim_prefix|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    {
+      "id": 151660,
+      "content": "<|fim_middle|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    {
+      "id": 151661,
+      "content": "<|fim_suffix|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    {
+      "id": 151662,
+      "content": "<|fim_pad|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    {
+      "id": 151663,
+      "content": "<|repo_name|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    {
+      "id": 151664,
+      "content": "<|file_sep|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    }
+  ],
+  "normalizer": {
+    "type": "NFC"
+  },
+  "pre_tokenizer": {
+    "type": "Sequence",
+    "pretokenizers": [
+      {
+        "type": "Split",
+        "pattern": {
+          "Regex": "(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\\r\\n\\p{L}\\p{N}]?\\p{L}+|\\p{N}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+"
+        },
+        "behavior": "Isolated",
+        "invert": false
+      },
+      {
+        "type": "ByteLevel",
+        "add_prefix_space": false,
+        "trim_offsets": false,
+        "use_regex": false
+      }
+    ]
+  },
+  "post_processor": {
+    "type": "ByteLevel",
+    "add_prefix_space": false,
+    "trim_offsets": false,
+    "use_regex": false
+  },
+  "decoder": {
+    "type": "ByteLevel",
+    "add_prefix_space": false,
+    "trim_offsets": false,
+    "use_regex": false
+  },
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": null,
+    "continuing_subword_prefix": "",
+    "end_of_word_suffix": "",
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "vocab": { 
+      "_comment": "not adding vocabulary to keep file size small, but it can be found here if needed https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B/raw/main/tokenizer.json"
+    }
+  }
+}

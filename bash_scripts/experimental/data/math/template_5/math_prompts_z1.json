@@ -1,0 +1,2804 @@
+{
+    "prompts": [
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River possesses 6 candles at first. If she received 8 more candles, what is the total count? Reasoning: Adding them gives: 6 + 8 = 14. Consequently, River has a total of 14 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River possesses 6 candles at first. If she received 8 more candles, what is the total count? Reasoning: Adding them gives: 6 + 8 = 13. Consequently, River has a total of 14 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Alice possesses 3 jackets at first. If she gathered 8 more jackets, what is the total count? Reasoning: Adding them gives: 3 + 8 = 11. Consequently, Alice has a total of 11 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Alice possesses 3 jackets at first. If she gathered 8 more jackets, what is the total count? Reasoning: Adding them gives: 3 + 8 = 12. Consequently, Alice has a total of 11 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Ian possesses 4 tickets at first. If he won 8 more tickets, what is the total count? Reasoning: Adding them gives: 4 + 8 = 12. Consequently, Ian has a total of 12 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Ian possesses 4 tickets at first. If he won 8 more tickets, what is the total count? Reasoning: Adding them gives: 4 + 8 = 19. Consequently, Ian has a total of 12 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice possesses 3 pillows at first. If she won 9 more pillows, what is the total count? Reasoning: Adding them gives: 3 + 9 = 12. Consequently, Alice has a total of 12 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice possesses 3 pillows at first. If she won 9 more pillows, what is the total count? Reasoning: Adding them gives: 3 + 9 = 18. Consequently, Alice has a total of 12 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River possesses 6 candles at first. If she bought 8 more candles, what is the total count? Reasoning: Adding them gives: 6 + 8 = 14. Consequently, River has a total of 14 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River possesses 6 candles at first. If she bought 8 more candles, what is the total count? Reasoning: Adding them gives: 6 + 8 = 12. Consequently, River has a total of 14 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas possesses 2 tickets at first. If he received 8 more tickets, what is the total count? Reasoning: Adding them gives: 2 + 8 = 10. Consequently, Thomas has a total of 10 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas possesses 2 tickets at first. If he received 8 more tickets, what is the total count? Reasoning: Adding them gives: 2 + 8 = 16. Consequently, Thomas has a total of 10 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 7 candles at first. If she won 9 more candles, what is the total count? Reasoning: Adding them gives: 7 + 9 = 16. Consequently, Kelly has a total of 16 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 7 candles at first. If she won 9 more candles, what is the total count? Reasoning: Adding them gives: 7 + 9 = 13. Consequently, Kelly has a total of 16 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian possesses 6 tickets at first. If he gained 8 more tickets, what is the total count? Reasoning: Adding them gives: 6 + 8 = 14. Consequently, Ian has a total of 14 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian possesses 6 tickets at first. If he gained 8 more tickets, what is the total count? Reasoning: Adding them gives: 6 + 8 = 19. Consequently, Ian has a total of 14 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Thomas possesses 7 cameras at first. If he received 9 more cameras, what is the total count? Reasoning: Adding them gives: 7 + 9 = 16. Consequently, Thomas has a total of 16 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Thomas possesses 7 cameras at first. If he received 9 more cameras, what is the total count? Reasoning: Adding them gives: 7 + 9 = 14. Consequently, Thomas has a total of 16 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 5 cameras at first. If she received 8 more cameras, what is the total count? Reasoning: Adding them gives: 5 + 8 = 13. Consequently, Kelly has a total of 13 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 5 cameras at first. If she received 8 more cameras, what is the total count? Reasoning: Adding them gives: 5 + 8 = 11. Consequently, Kelly has a total of 13 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Thomas possesses 2 pillows at first. If he gained 9 more pillows, what is the total count? Reasoning: Adding them gives: 2 + 9 = 11. Consequently, Thomas has a total of 11 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Thomas possesses 2 pillows at first. If he gained 9 more pillows, what is the total count? Reasoning: Adding them gives: 2 + 9 = 16. Consequently, Thomas has a total of 11 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Thomas possesses 7 jackets at first. If he gathered 9 more jackets, what is the total count? Reasoning: Adding them gives: 7 + 9 = 16. Consequently, Thomas has a total of 16 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Thomas possesses 7 jackets at first. If he gathered 9 more jackets, what is the total count? Reasoning: Adding them gives: 7 + 9 = 10. Consequently, Thomas has a total of 16 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River possesses 3 tickets at first. If she received 7 more tickets, what is the total count? Reasoning: Adding them gives: 3 + 7 = 10. Consequently, River has a total of 10 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River possesses 3 tickets at first. If she received 7 more tickets, what is the total count? Reasoning: Adding them gives: 3 + 7 = 12. Consequently, River has a total of 10 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Thomas possesses 2 jackets at first. If he received 9 more jackets, what is the total count? Reasoning: Adding them gives: 2 + 9 = 11. Consequently, Thomas has a total of 11 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Thomas possesses 2 jackets at first. If he received 9 more jackets, what is the total count? Reasoning: Adding them gives: 2 + 9 = 14. Consequently, Thomas has a total of 11 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 5 pillows at first. If she received 9 more pillows, what is the total count? Reasoning: Adding them gives: 5 + 9 = 14. Consequently, Kelly has a total of 14 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 5 pillows at first. If she received 9 more pillows, what is the total count? Reasoning: Adding them gives: 5 + 9 = 13. Consequently, Kelly has a total of 14 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 5 pillows at first. If she gained 7 more pillows, what is the total count? Reasoning: Adding them gives: 5 + 7 = 12. Consequently, Kelly has a total of 12 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 5 pillows at first. If she gained 7 more pillows, what is the total count? Reasoning: Adding them gives: 5 + 7 = 19. Consequently, Kelly has a total of 12 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River possesses 5 cameras at first. If she gathered 9 more cameras, what is the total count? Reasoning: Adding them gives: 5 + 9 = 14. Consequently, River has a total of 14 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River possesses 5 cameras at first. If she gathered 9 more cameras, what is the total count? Reasoning: Adding them gives: 5 + 9 = 19. Consequently, River has a total of 14 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River possesses 4 pillows at first. If she received 9 more pillows, what is the total count? Reasoning: Adding them gives: 4 + 9 = 13. Consequently, River has a total of 13 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River possesses 4 pillows at first. If she received 9 more pillows, what is the total count? Reasoning: Adding them gives: 4 + 9 = 11. Consequently, River has a total of 13 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Alice possesses 8 pillows at first. If she gained 9 more pillows, what is the total count? Reasoning: Adding them gives: 8 + 9 = 17. Consequently, Alice has a total of 17 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Alice possesses 8 pillows at first. If she gained 9 more pillows, what is the total count? Reasoning: Adding them gives: 8 + 9 = 10. Consequently, Alice has a total of 17 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas possesses 3 candles at first. If he bought 8 more candles, what is the total count? Reasoning: Adding them gives: 3 + 8 = 11. Consequently, Thomas has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas possesses 3 candles at first. If he bought 8 more candles, what is the total count? Reasoning: Adding them gives: 3 + 8 = 16. Consequently, Thomas has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice possesses 3 jackets at first. If she won 8 more jackets, what is the total count? Reasoning: Adding them gives: 3 + 8 = 11. Consequently, Alice has a total of 11 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice possesses 3 jackets at first. If she won 8 more jackets, what is the total count? Reasoning: Adding them gives: 3 + 8 = 18. Consequently, Alice has a total of 11 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Alice possesses 5 candles at first. If she gathered 9 more candles, what is the total count? Reasoning: Adding them gives: 5 + 9 = 14. Consequently, Alice has a total of 14 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Alice possesses 5 candles at first. If she gathered 9 more candles, what is the total count? Reasoning: Adding them gives: 5 + 9 = 16. Consequently, Alice has a total of 14 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice possesses 5 cameras at first. If she won 6 more cameras, what is the total count? Reasoning: Adding them gives: 5 + 6 = 11. Consequently, Alice has a total of 11 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice possesses 5 cameras at first. If she won 6 more cameras, what is the total count? Reasoning: Adding them gives: 5 + 6 = 16. Consequently, Alice has a total of 11 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 3 jackets at first. If she gathered 8 more jackets, what is the total count? Reasoning: Adding them gives: 3 + 8 = 11. Consequently, River has a total of 11 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 3 jackets at first. If she gathered 8 more jackets, what is the total count? Reasoning: Adding them gives: 3 + 8 = 16. Consequently, River has a total of 11 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Kelly possesses 3 candles at first. If she received 8 more candles, what is the total count? Reasoning: Adding them gives: 3 + 8 = 11. Consequently, Kelly has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Kelly possesses 3 candles at first. If she received 8 more candles, what is the total count? Reasoning: Adding them gives: 3 + 8 = 15. Consequently, Kelly has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River possesses 8 tickets at first. If she gathered 9 more tickets, what is the total count? Reasoning: Adding them gives: 8 + 9 = 17. Consequently, River has a total of 17 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River possesses 8 tickets at first. If she gathered 9 more tickets, what is the total count? Reasoning: Adding them gives: 8 + 9 = 18. Consequently, River has a total of 17 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Alice possesses 7 jackets at first. If she gathered 9 more jackets, what is the total count? Reasoning: Adding them gives: 7 + 9 = 16. Consequently, Alice has a total of 16 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Alice possesses 7 jackets at first. If she gathered 9 more jackets, what is the total count? Reasoning: Adding them gives: 7 + 9 = 11. Consequently, Alice has a total of 16 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River possesses 6 cameras at first. If she gained 9 more cameras, what is the total count? Reasoning: Adding them gives: 6 + 9 = 15. Consequently, River has a total of 15 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River possesses 6 cameras at first. If she gained 9 more cameras, what is the total count? Reasoning: Adding them gives: 6 + 9 = 14. Consequently, River has a total of 15 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Alice possesses 5 jackets at first. If she won 7 more jackets, what is the total count? Reasoning: Adding them gives: 5 + 7 = 12. Consequently, Alice has a total of 12 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Alice possesses 5 jackets at first. If she won 7 more jackets, what is the total count? Reasoning: Adding them gives: 5 + 7 = 11. Consequently, Alice has a total of 12 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Thomas possesses 6 cameras at first. If he received 7 more cameras, what is the total count? Reasoning: Adding them gives: 6 + 7 = 13. Consequently, Thomas has a total of 13 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Thomas possesses 6 cameras at first. If he received 7 more cameras, what is the total count? Reasoning: Adding them gives: 6 + 7 = 10. Consequently, Thomas has a total of 13 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly possesses 3 pillows at first. If she bought 9 more pillows, what is the total count? Reasoning: Adding them gives: 3 + 9 = 12. Consequently, Kelly has a total of 12 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly possesses 3 pillows at first. If she bought 9 more pillows, what is the total count? Reasoning: Adding them gives: 3 + 9 = 15. Consequently, Kelly has a total of 12 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Alice possesses 3 candles at first. If she gathered 9 more candles, what is the total count? Reasoning: Adding them gives: 3 + 9 = 12. Consequently, Alice has a total of 12 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Alice possesses 3 candles at first. If she gathered 9 more candles, what is the total count? Reasoning: Adding them gives: 3 + 9 = 18. Consequently, Alice has a total of 12 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River possesses 7 pillows at first. If she gathered 8 more pillows, what is the total count? Reasoning: Adding them gives: 7 + 8 = 15. Consequently, River has a total of 15 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River possesses 7 pillows at first. If she gathered 8 more pillows, what is the total count? Reasoning: Adding them gives: 7 + 8 = 10. Consequently, River has a total of 15 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River possesses 7 tickets at first. If she received 8 more tickets, what is the total count? Reasoning: Adding them gives: 7 + 8 = 15. Consequently, River has a total of 15 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River possesses 7 tickets at first. If she received 8 more tickets, what is the total count? Reasoning: Adding them gives: 7 + 8 = 10. Consequently, River has a total of 15 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Alice possesses 6 cameras at first. If she gathered 7 more cameras, what is the total count? Reasoning: Adding them gives: 6 + 7 = 13. Consequently, Alice has a total of 13 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Alice possesses 6 cameras at first. If she gathered 7 more cameras, what is the total count? Reasoning: Adding them gives: 6 + 7 = 16. Consequently, Alice has a total of 13 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River possesses 2 tickets at first. If she gathered 8 more tickets, what is the total count? Reasoning: Adding them gives: 2 + 8 = 10. Consequently, River has a total of 10 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River possesses 2 tickets at first. If she gathered 8 more tickets, what is the total count? Reasoning: Adding them gives: 2 + 8 = 13. Consequently, River has a total of 10 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Ian possesses 4 pillows at first. If he received 7 more pillows, what is the total count? Reasoning: Adding them gives: 4 + 7 = 11. Consequently, Ian has a total of 11 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Ian possesses 4 pillows at first. If he received 7 more pillows, what is the total count? Reasoning: Adding them gives: 4 + 7 = 18. Consequently, Ian has a total of 11 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 2 jackets at first. If she gained 8 more jackets, what is the total count? Reasoning: Adding them gives: 2 + 8 = 10. Consequently, Kelly has a total of 10 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 2 jackets at first. If she gained 8 more jackets, what is the total count? Reasoning: Adding them gives: 2 + 8 = 13. Consequently, Kelly has a total of 10 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 3 cameras at first. If she gathered 8 more cameras, what is the total count? Reasoning: Adding them gives: 3 + 8 = 11. Consequently, Kelly has a total of 11 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 3 cameras at first. If she gathered 8 more cameras, what is the total count? Reasoning: Adding them gives: 3 + 8 = 14. Consequently, Kelly has a total of 11 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly possesses 4 pillows at first. If she gathered 7 more pillows, what is the total count? Reasoning: Adding them gives: 4 + 7 = 11. Consequently, Kelly has a total of 11 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly possesses 4 pillows at first. If she gathered 7 more pillows, what is the total count? Reasoning: Adding them gives: 4 + 7 = 14. Consequently, Kelly has a total of 11 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas possesses 7 jackets at first. If he won 9 more jackets, what is the total count? Reasoning: Adding them gives: 7 + 9 = 16. Consequently, Thomas has a total of 16 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas possesses 7 jackets at first. If he won 9 more jackets, what is the total count? Reasoning: Adding them gives: 7 + 9 = 14. Consequently, Thomas has a total of 16 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Thomas possesses 4 jackets at first. If he gained 9 more jackets, what is the total count? Reasoning: Adding them gives: 4 + 9 = 13. Consequently, Thomas has a total of 13 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Thomas possesses 4 jackets at first. If he gained 9 more jackets, what is the total count? Reasoning: Adding them gives: 4 + 9 = 10. Consequently, Thomas has a total of 13 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 8 jackets at first. If she received 9 more jackets, what is the total count? Reasoning: Adding them gives: 8 + 9 = 17. Consequently, Kelly has a total of 17 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 8 jackets at first. If she received 9 more jackets, what is the total count? Reasoning: Adding them gives: 8 + 9 = 10. Consequently, Kelly has a total of 17 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 2 pillows at first. If she received 8 more pillows, what is the total count? Reasoning: Adding them gives: 2 + 8 = 10. Consequently, River has a total of 10 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 2 pillows at first. If she received 8 more pillows, what is the total count? Reasoning: Adding them gives: 2 + 8 = 16. Consequently, River has a total of 10 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 6 pillows at first. If she bought 8 more pillows, what is the total count? Reasoning: Adding them gives: 6 + 8 = 14. Consequently, River has a total of 14 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 6 pillows at first. If she bought 8 more pillows, what is the total count? Reasoning: Adding them gives: 6 + 8 = 19. Consequently, River has a total of 14 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Ian possesses 6 jackets at first. If he gathered 9 more jackets, what is the total count? Reasoning: Adding them gives: 6 + 9 = 15. Consequently, Ian has a total of 15 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Ian possesses 6 jackets at first. If he gathered 9 more jackets, what is the total count? Reasoning: Adding them gives: 6 + 9 = 18. Consequently, Ian has a total of 15 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly possesses 4 pillows at first. If she bought 9 more pillows, what is the total count? Reasoning: Adding them gives: 4 + 9 = 13. Consequently, Kelly has a total of 13 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly possesses 4 pillows at first. If she bought 9 more pillows, what is the total count? Reasoning: Adding them gives: 4 + 9 = 14. Consequently, Kelly has a total of 13 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian possesses 5 candles at first. If he bought 6 more candles, what is the total count? Reasoning: Adding them gives: 5 + 6 = 11. Consequently, Ian has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian possesses 5 candles at first. If he bought 6 more candles, what is the total count? Reasoning: Adding them gives: 5 + 6 = 16. Consequently, Ian has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly possesses 4 candles at first. If she received 7 more candles, what is the total count? Reasoning: Adding them gives: 4 + 7 = 11. Consequently, Kelly has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly possesses 4 candles at first. If she received 7 more candles, what is the total count? Reasoning: Adding them gives: 4 + 7 = 17. Consequently, Kelly has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Kelly possesses 3 pillows at first. If she received 9 more pillows, what is the total count? Reasoning: Adding them gives: 3 + 9 = 12. Consequently, Kelly has a total of 12 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Kelly possesses 3 pillows at first. If she received 9 more pillows, what is the total count? Reasoning: Adding them gives: 3 + 9 = 17. Consequently, Kelly has a total of 12 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Ian possesses 5 jackets at first. If he received 9 more jackets, what is the total count? Reasoning: Adding them gives: 5 + 9 = 14. Consequently, Ian has a total of 14 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Ian possesses 5 jackets at first. If he received 9 more jackets, what is the total count? Reasoning: Adding them gives: 5 + 9 = 15. Consequently, Ian has a total of 14 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly possesses 7 tickets at first. If she gained 9 more tickets, what is the total count? Reasoning: Adding them gives: 7 + 9 = 16. Consequently, Kelly has a total of 16 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly possesses 7 tickets at first. If she gained 9 more tickets, what is the total count? Reasoning: Adding them gives: 7 + 9 = 12. Consequently, Kelly has a total of 16 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 6 cameras at first. If she gathered 9 more cameras, what is the total count? Reasoning: Adding them gives: 6 + 9 = 15. Consequently, River has a total of 15 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 6 cameras at first. If she gathered 9 more cameras, what is the total count? Reasoning: Adding them gives: 6 + 9 = 17. Consequently, River has a total of 15 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian possesses 6 cameras at first. If he won 8 more cameras, what is the total count? Reasoning: Adding them gives: 6 + 8 = 14. Consequently, Ian has a total of 14 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian possesses 6 cameras at first. If he won 8 more cameras, what is the total count? Reasoning: Adding them gives: 6 + 8 = 17. Consequently, Ian has a total of 14 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian possesses 4 candles at first. If he gathered 6 more candles, what is the total count? Reasoning: Adding them gives: 4 + 6 = 10. Consequently, Ian has a total of 10 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian possesses 4 candles at first. If he gathered 6 more candles, what is the total count? Reasoning: Adding them gives: 4 + 6 = 15. Consequently, Ian has a total of 10 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly possesses 3 candles at first. If she received 9 more candles, what is the total count? Reasoning: Adding them gives: 3 + 9 = 12. Consequently, Kelly has a total of 12 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly possesses 3 candles at first. If she received 9 more candles, what is the total count? Reasoning: Adding them gives: 3 + 9 = 19. Consequently, Kelly has a total of 12 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Ian possesses 2 tickets at first. If he won 8 more tickets, what is the total count? Reasoning: Adding them gives: 2 + 8 = 10. Consequently, Ian has a total of 10 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Ian possesses 2 tickets at first. If he won 8 more tickets, what is the total count? Reasoning: Adding them gives: 2 + 8 = 17. Consequently, Ian has a total of 10 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 3 tickets at first. If she gathered 7 more tickets, what is the total count? Reasoning: Adding them gives: 3 + 7 = 10. Consequently, Kelly has a total of 10 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 3 tickets at first. If she gathered 7 more tickets, what is the total count? Reasoning: Adding them gives: 3 + 7 = 14. Consequently, Kelly has a total of 10 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Thomas possesses 6 pillows at first. If he gathered 8 more pillows, what is the total count? Reasoning: Adding them gives: 6 + 8 = 14. Consequently, Thomas has a total of 14 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Thomas possesses 6 pillows at first. If he gathered 8 more pillows, what is the total count? Reasoning: Adding them gives: 6 + 8 = 15. Consequently, Thomas has a total of 14 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice possesses 6 jackets at first. If she received 7 more jackets, what is the total count? Reasoning: Adding them gives: 6 + 7 = 13. Consequently, Alice has a total of 13 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice possesses 6 jackets at first. If she received 7 more jackets, what is the total count? Reasoning: Adding them gives: 6 + 7 = 11. Consequently, Alice has a total of 13 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian possesses 5 tickets at first. If he bought 9 more tickets, what is the total count? Reasoning: Adding them gives: 5 + 9 = 14. Consequently, Ian has a total of 14 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Ian possesses 5 tickets at first. If he bought 9 more tickets, what is the total count? Reasoning: Adding them gives: 5 + 9 = 10. Consequently, Ian has a total of 14 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 4 cameras at first. If she won 7 more cameras, what is the total count? Reasoning: Adding them gives: 4 + 7 = 11. Consequently, Kelly has a total of 11 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 4 cameras at first. If she won 7 more cameras, what is the total count? Reasoning: Adding them gives: 4 + 7 = 12. Consequently, Kelly has a total of 11 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River possesses 5 jackets at first. If she gathered 8 more jackets, what is the total count? Reasoning: Adding them gives: 5 + 8 = 13. Consequently, River has a total of 13 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River possesses 5 jackets at first. If she gathered 8 more jackets, what is the total count? Reasoning: Adding them gives: 5 + 8 = 19. Consequently, River has a total of 13 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice possesses 4 cameras at first. If she won 9 more cameras, what is the total count? Reasoning: Adding them gives: 4 + 9 = 13. Consequently, Alice has a total of 13 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice possesses 4 cameras at first. If she won 9 more cameras, what is the total count? Reasoning: Adding them gives: 4 + 9 = 15. Consequently, Alice has a total of 13 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Thomas possesses 4 tickets at first. If he bought 6 more tickets, what is the total count? Reasoning: Adding them gives: 4 + 6 = 10. Consequently, Thomas has a total of 10 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Thomas possesses 4 tickets at first. If he bought 6 more tickets, what is the total count? Reasoning: Adding them gives: 4 + 6 = 13. Consequently, Thomas has a total of 10 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River possesses 4 jackets at first. If she gained 6 more jackets, what is the total count? Reasoning: Adding them gives: 4 + 6 = 10. Consequently, River has a total of 10 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River possesses 4 jackets at first. If she gained 6 more jackets, what is the total count? Reasoning: Adding them gives: 4 + 6 = 14. Consequently, River has a total of 10 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Ian possesses 5 tickets at first. If he received 8 more tickets, what is the total count? Reasoning: Adding them gives: 5 + 8 = 13. Consequently, Ian has a total of 13 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Ian possesses 5 tickets at first. If he received 8 more tickets, what is the total count? Reasoning: Adding them gives: 5 + 8 = 15. Consequently, Ian has a total of 13 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Kelly possesses 5 tickets at first. If she gained 6 more tickets, what is the total count? Reasoning: Adding them gives: 5 + 6 = 11. Consequently, Kelly has a total of 11 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Kelly possesses 5 tickets at first. If she gained 6 more tickets, what is the total count? Reasoning: Adding them gives: 5 + 6 = 18. Consequently, Kelly has a total of 11 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian possesses 3 cameras at first. If he received 9 more cameras, what is the total count? Reasoning: Adding them gives: 3 + 9 = 12. Consequently, Ian has a total of 12 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Ian possesses 3 cameras at first. If he received 9 more cameras, what is the total count? Reasoning: Adding them gives: 3 + 9 = 13. Consequently, Ian has a total of 12 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River possesses 4 tickets at first. If she won 7 more tickets, what is the total count? Reasoning: Adding them gives: 4 + 7 = 11. Consequently, River has a total of 11 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: River possesses 4 tickets at first. If she won 7 more tickets, what is the total count? Reasoning: Adding them gives: 4 + 7 = 12. Consequently, River has a total of 11 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 3 tickets at first. If she gained 9 more tickets, what is the total count? Reasoning: Adding them gives: 3 + 9 = 12. Consequently, River has a total of 12 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 3 tickets at first. If she gained 9 more tickets, what is the total count? Reasoning: Adding them gives: 3 + 9 = 16. Consequently, River has a total of 12 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Kelly possesses 5 pillows at first. If she gathered 6 more pillows, what is the total count? Reasoning: Adding them gives: 5 + 6 = 11. Consequently, Kelly has a total of 11 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Kelly possesses 5 pillows at first. If she gathered 6 more pillows, what is the total count? Reasoning: Adding them gives: 5 + 6 = 13. Consequently, Kelly has a total of 11 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 2 candles at first. If she gained 9 more candles, what is the total count? Reasoning: Adding them gives: 2 + 9 = 11. Consequently, Kelly has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 2 candles at first. If she gained 9 more candles, what is the total count? Reasoning: Adding them gives: 2 + 9 = 12. Consequently, Kelly has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Kelly possesses 4 tickets at first. If she gained 8 more tickets, what is the total count? Reasoning: Adding them gives: 4 + 8 = 12. Consequently, Kelly has a total of 12 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Kelly possesses 4 tickets at first. If she gained 8 more tickets, what is the total count? Reasoning: Adding them gives: 4 + 8 = 13. Consequently, Kelly has a total of 12 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Thomas possesses 4 pillows at first. If he bought 8 more pillows, what is the total count? Reasoning: Adding them gives: 4 + 8 = 12. Consequently, Thomas has a total of 12 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Thomas possesses 4 pillows at first. If he bought 8 more pillows, what is the total count? Reasoning: Adding them gives: 4 + 8 = 16. Consequently, Thomas has a total of 12 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas possesses 2 pillows at first. If he bought 8 more pillows, what is the total count? Reasoning: Adding them gives: 2 + 8 = 10. Consequently, Thomas has a total of 10 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Thomas possesses 2 pillows at first. If he bought 8 more pillows, what is the total count? Reasoning: Adding them gives: 2 + 8 = 13. Consequently, Thomas has a total of 10 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River possesses 4 jackets at first. If she gained 9 more jackets, what is the total count? Reasoning: Adding them gives: 4 + 9 = 13. Consequently, River has a total of 13 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River possesses 4 jackets at first. If she gained 9 more jackets, what is the total count? Reasoning: Adding them gives: 4 + 9 = 19. Consequently, River has a total of 13 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly possesses 4 cameras at first. If she won 6 more cameras, what is the total count? Reasoning: Adding them gives: 4 + 6 = 10. Consequently, Kelly has a total of 10 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Kelly possesses 4 cameras at first. If she won 6 more cameras, what is the total count? Reasoning: Adding them gives: 4 + 6 = 11. Consequently, Kelly has a total of 10 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Ian possesses 5 candles at first. If he won 6 more candles, what is the total count? Reasoning: Adding them gives: 5 + 6 = 11. Consequently, Ian has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: Ian possesses 5 candles at first. If he won 6 more candles, what is the total count? Reasoning: Adding them gives: 5 + 6 = 14. Consequently, Ian has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice possesses 7 pillows at first. If she gathered 9 more pillows, what is the total count? Reasoning: Adding them gives: 7 + 9 = 16. Consequently, Alice has a total of 16 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice possesses 7 pillows at first. If she gathered 9 more pillows, what is the total count? Reasoning: Adding them gives: 7 + 9 = 18. Consequently, Alice has a total of 16 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Alice possesses 4 candles at first. If she gathered 9 more candles, what is the total count? Reasoning: Adding them gives: 4 + 9 = 13. Consequently, Alice has a total of 13 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Alice possesses 4 candles at first. If she gathered 9 more candles, what is the total count? Reasoning: Adding them gives: 4 + 9 = 12. Consequently, Alice has a total of 13 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice possesses 3 tickets at first. If she gathered 8 more tickets, what is the total count? Reasoning: Adding them gives: 3 + 8 = 11. Consequently, Alice has a total of 11 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Alice possesses 3 tickets at first. If she gathered 8 more tickets, what is the total count? Reasoning: Adding them gives: 3 + 8 = 17. Consequently, Alice has a total of 11 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River possesses 8 candles at first. If she gained 9 more candles, what is the total count? Reasoning: Adding them gives: 8 + 9 = 17. Consequently, River has a total of 17 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River possesses 8 candles at first. If she gained 9 more candles, what is the total count? Reasoning: Adding them gives: 8 + 9 = 10. Consequently, River has a total of 17 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 5 jackets at first. If she bought 7 more jackets, what is the total count? Reasoning: Adding them gives: 5 + 7 = 12. Consequently, River has a total of 12 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 5 jackets at first. If she bought 7 more jackets, what is the total count? Reasoning: Adding them gives: 5 + 7 = 19. Consequently, River has a total of 12 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Thomas possesses 5 cameras at first. If he gathered 6 more cameras, what is the total count? Reasoning: Adding them gives: 5 + 6 = 11. Consequently, Thomas has a total of 11 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Thomas possesses 5 cameras at first. If he gathered 6 more cameras, what is the total count? Reasoning: Adding them gives: 5 + 6 = 15. Consequently, Thomas has a total of 11 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River possesses 5 jackets at first. If she won 9 more jackets, what is the total count? Reasoning: Adding them gives: 5 + 9 = 14. Consequently, River has a total of 14 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: River possesses 5 jackets at first. If she won 9 more jackets, what is the total count? Reasoning: Adding them gives: 5 + 9 = 17. Consequently, River has a total of 14 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice possesses 4 jackets at first. If she gained 7 more jackets, what is the total count? Reasoning: Adding them gives: 4 + 7 = 11. Consequently, Alice has a total of 11 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Alice possesses 4 jackets at first. If she gained 7 more jackets, what is the total count? Reasoning: Adding them gives: 4 + 7 = 16. Consequently, Alice has a total of 11 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River possesses 7 cameras at first. If she received 8 more cameras, what is the total count? Reasoning: Adding them gives: 7 + 8 = 15. Consequently, River has a total of 15 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is valid or invalid. Problem: River possesses 7 cameras at first. If she received 8 more cameras, what is the total count? Reasoning: Adding them gives: 7 + 8 = 16. Consequently, River has a total of 15 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 5 tickets at first. If she received 6 more tickets, what is the total count? Reasoning: Adding them gives: 5 + 6 = 11. Consequently, Kelly has a total of 11 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Kelly possesses 5 tickets at first. If she received 6 more tickets, what is the total count? Reasoning: Adding them gives: 5 + 6 = 14. Consequently, Kelly has a total of 11 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly possesses 7 jackets at first. If she bought 8 more jackets, what is the total count? Reasoning: Adding them gives: 7 + 8 = 15. Consequently, Kelly has a total of 15 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: Kelly possesses 7 jackets at first. If she bought 8 more jackets, what is the total count? Reasoning: Adding them gives: 7 + 8 = 13. Consequently, Kelly has a total of 15 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Thomas possesses 8 tickets at first. If he received 9 more tickets, what is the total count? Reasoning: Adding them gives: 8 + 9 = 17. Consequently, Thomas has a total of 17 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: Thomas possesses 8 tickets at first. If he received 9 more tickets, what is the total count? Reasoning: Adding them gives: 8 + 9 = 14. Consequently, Thomas has a total of 17 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River possesses 3 cameras at first. If she won 8 more cameras, what is the total count? Reasoning: Adding them gives: 3 + 8 = 11. Consequently, River has a total of 11 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: River possesses 3 cameras at first. If she won 8 more cameras, what is the total count? Reasoning: Adding them gives: 3 + 8 = 18. Consequently, River has a total of 11 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Kelly possesses 4 pillows at first. If she gained 9 more pillows, what is the total count? Reasoning: Adding them gives: 4 + 9 = 13. Consequently, Kelly has a total of 13 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Kelly possesses 4 pillows at first. If she gained 9 more pillows, what is the total count? Reasoning: Adding them gives: 4 + 9 = 18. Consequently, Kelly has a total of 13 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Ian possesses 3 jackets at first. If he received 7 more jackets, what is the total count? Reasoning: Adding them gives: 3 + 7 = 10. Consequently, Ian has a total of 10 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is right or wrong. Problem: Ian possesses 3 jackets at first. If he received 7 more jackets, what is the total count? Reasoning: Adding them gives: 3 + 7 = 15. Consequently, Ian has a total of 10 jackets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 3 candles at first. If she won 8 more candles, what is the total count? Reasoning: Adding them gives: 3 + 8 = 11. Consequently, River has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is correct or incorrect. Problem: River possesses 3 candles at first. If she won 8 more candles, what is the total count? Reasoning: Adding them gives: 3 + 8 = 10. Consequently, River has a total of 11 candles."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River possesses 7 cameras at first. If she received 9 more cameras, what is the total count? Reasoning: Adding them gives: 7 + 9 = 16. Consequently, River has a total of 16 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River possesses 7 cameras at first. If she received 9 more cameras, what is the total count? Reasoning: Adding them gives: 7 + 9 = 19. Consequently, River has a total of 16 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River possesses 5 cameras at first. If she bought 7 more cameras, what is the total count? Reasoning: Adding them gives: 5 + 7 = 12. Consequently, River has a total of 12 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River possesses 5 cameras at first. If she bought 7 more cameras, what is the total count? Reasoning: Adding them gives: 5 + 7 = 15. Consequently, River has a total of 12 cameras."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River possesses 5 pillows at first. If she won 6 more pillows, what is the total count? Reasoning: Adding them gives: 5 + 6 = 11. Consequently, River has a total of 11 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is right or wrong. Problem: River possesses 5 pillows at first. If she won 6 more pillows, what is the total count? Reasoning: Adding them gives: 5 + 6 = 19. Consequently, River has a total of 11 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " right"
+            ],
+            "answers": [
+                " wrong"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Ian possesses 7 tickets at first. If he won 9 more tickets, what is the total count? Reasoning: Adding them gives: 7 + 9 = 16. Consequently, Ian has a total of 16 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the provided reasoning chain contain any flaws? Assess if it is valid or invalid. Problem: Ian possesses 7 tickets at first. If he won 9 more tickets, what is the total count? Reasoning: Adding them gives: 7 + 9 = 12. Consequently, Ian has a total of 16 tickets."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " valid"
+            ],
+            "answers": [
+                " invalid"
+            ]
+        },
+        {
+            "corrupt": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Kelly possesses 3 pillows at first. If she gained 7 more pillows, what is the total count? Reasoning: Adding them gives: 3 + 7 = 10. Consequently, Kelly has a total of 10 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "clean": [
+                {
+                    "role": "user",
+                    "content": "Does the following reasoning chain contain any mistakes? Determine whether it is correct or incorrect. Problem: Kelly possesses 3 pillows at first. If she gained 7 more pillows, what is the total count? Reasoning: Adding them gives: 3 + 7 = 19. Consequently, Kelly has a total of 10 pillows."
+                },
+                {
+                    "role": "assistant",
+                    "content": "Answer: The above reasoning is"
+                }
+            ],
+            "wrong_answers": [
+                " correct"
+            ],
+            "answers": [
+                " incorrect"
+            ]
+        }
+    ]
+}
